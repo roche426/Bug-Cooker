@@ -136,3 +136,52 @@ h3,h4, h5{
       font-size: 15px;
     }
 }
+
+
+.text-center{
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .specialite {
+    height: 500px
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .specialiteLG1{
+    height: 410px
+  }
+  .specialiteLG2{
+    height: 450px
+  }
+}
+
+.bottom{
+  vertical-align: bottom;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panelaccordeon{
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
