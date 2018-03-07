@@ -14,7 +14,7 @@
   </head>
   <body>
     <header>
-
+        <?php include("header.php");?>
     </header>
 
     <section><!--our restaurants-->
@@ -101,8 +101,8 @@
       </div>
     </section>
 
-    <footer>
-
+    <footer class="banniere_top">
+            <?php include("footer.php");?>
     </footer>
 
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>

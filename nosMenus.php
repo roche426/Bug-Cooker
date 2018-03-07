@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="vblvlds">
-        kdsqdkjqsdmlksqjdlsqk
-    </div>
+    <header>
+        <?php include("header.php");?>
+    </header>
   <section>
     <div class="container">
       <div class="row">
@@ -106,9 +106,14 @@
       </div>
     </div>
   </section>
+
+  <footer class="banniere_top">
+      <?php include("footer.php");?>
+  </footer>
+
+
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
   <script src="js/script.js"></script>
 
 </body>

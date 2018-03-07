@@ -12,6 +12,9 @@
   </head>
 
   <body>
+     <header>
+         <?php include("header.php");?>
+     </header>
 
     <div class="container">
       <div class="panel panel-default arrierePlanTitre">
@@ -118,6 +121,9 @@
     </div>
   </div>
 
+  <footer class="banniere_top">
+      <?php include("footer.php");?>
+  </footer>
 
   </body>
 </html>
