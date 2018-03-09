@@ -5,7 +5,7 @@
 }
 /*CSS banniere top*/
 header{
-	background-color: white;
+	background-image: url("Images/fond_pierre.jpg");
 ;
 }
 ul{
@@ -30,7 +30,7 @@ ul{
 }
 /* CSS du Footer*/
 footer{
-	background-color: white;
+	background-image: url("Images/fond_pierre.jpg");
 	margin: auto;
 }
 .banniere_bottom{
@@ -58,6 +58,11 @@ footer{
 	margin-bottom: 50px;
 }
 
+body{
+	background-image: url("Images/fond_pierre.jpg");
+}
+
+
 p{
   text-align: justify;
 }
@@ -71,10 +76,11 @@ h3,h4, h5{
   font-size: 25px;
   font-weight: bold;
   margin-left: 120px;
+  color: white
 }
 
 .arrierePlanTitre{
-  background-color: grey;
+	background-color: rgb(50, 50, 59);
   border-radius: 25px;
 }
 
@@ -128,9 +134,43 @@ h3,h4, h5{
 /* menu */
 
 .boutonCarte{
+	margin: 20px;
   padding: 20px;
   font-size: 40px;
+  	border-width: thick;
+  border-radius: 25px;
+  border-color: rgb(156, 129, 115);
+  background-color: rgb(156, 129, 115);
 }
+
+.boutonCarte:hover{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
+.boutonCarte:active{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
+.boutonCarte:active:hover{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
+.boutonCarte:active:focus{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
 
 @media only screen and (min-width: 720px){
   .imgResponsiveMobile{

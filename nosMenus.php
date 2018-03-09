@@ -58,44 +58,44 @@
               <div class="row">
                 <div class="col-sm-6 col-md-3">
                   <div class="thumbnail specialite specialiteLG1">
-                    <img src="Images/abeille_1.jpg" alt="abeille">
+                    <img src="Images/abeille_1_resize.jpg" alt="abeille">
                       <div class="caption">
                         <h3>Spécialités LYON</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco .</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LYON</a></p>
+                        <p><a href="nosRestaurant.php" class="btn btn-primary" role="button">LYON</a></p>
                       </div>
                   </div>
                 </div>
 
                 <div class="col-sm-6 col-md-3">
                   <div class="thumbnail specialite specialiteLG1">
-                    <img src="Images/abeille_1.jpg" alt="abeille">
+                    <img src="Images/frites_1_resize.jpg" alt="abeille">
                       <div class="caption">
                         <h3>Spécialités PARIS</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">PARIS</a></p>
+                        <p><a href="nosRestaurant.php" class="btn btn-primary" role="button">PARIS</a></p>
                       </div>
                   </div>
                 </div>
 
                 <div class="col-sm-6 col-md-3">
                   <div class="thumbnail specialite specialiteLG2">
-                    <img src="Images/abeille_1.jpg" alt="abeille">
+                    <img src="Images/brochette_1_resize.jpg" alt="abeille">
                       <div class="caption">
                         <h3>Spécialités BORDEAUX</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        <p><a href="#" class="btn btn-primary" role="button">BORDEAUX</a></p>
+                        <p><a href="nosRestaurant.php" class="btn btn-primary" role="button">BORDEAUX</a></p>
                       </div>
                   </div>
                 </div>
 
                 <div class="col-sm-6 col-md-3">
                   <div class="thumbnail specialite specialiteLG2">
-                    <img src="Images/abeille_1.jpg" alt="abeille">
+                    <img src="Images/qcorpion_2.jpg" alt="abeille">
                       <div class="caption">
                         <h3>Spécialités MARSEILLE</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">MARSEILLE</a></p>
+                        <p><a href="nosRestaurant.php" class="btn btn-primary" role="button">MARSEILLE</a></p>
                       </div>
                   </div>
                 </div>
