@@ -107,11 +107,11 @@ h2{
 }
 
 .yellowIndicators li{
-	background-color: rgb(217,168,0);
+	background-color: rgb(217,168,0); /* couleur indicateurs inactifs*/
 }
 
 .yellowIndicators .active{
-	background-color: rgba(217,168,0,0.3);
+	background-color: rgba(217,168,0,0.3); /*couleur indicateur actif */
 }
 
 .imgConcept{
@@ -140,13 +140,13 @@ h2{
 
 .titreArticle, .textArticle{
   text-align: center;
-  width: 80%;
+  width: 70%;
   margin: auto;
   opacity: 1;
 }
 
 .carousel-inner > .active {
-	background-color: rgb(222,206,181);
+	background-color: rgb(222,206,181); /*couleur fond carousel*/
 }
 
 .titreArticle{
@@ -155,6 +155,7 @@ h2{
   font-weight: bold;
   padding-bottom: : 1%;
 }
+
 .textArticle{
   font-size: 20px;
 }
@@ -164,9 +165,6 @@ h2{
 	padding-top: 1%;
 	padding-bottom: 2%;
 }
-
-
-/* menu */
 
 #aDecouvrezCarte{
 	display: block;
@@ -179,8 +177,7 @@ h2{
   .imgResponsiveMobile{
     display: none;
     text-align: center;
-  }
-
+	}
 }
 
 @media only screen and (max-width: 992px){
@@ -208,17 +205,24 @@ h2{
     #myCarousel{
       display: none;
     }
-    /*.imgPhotoInsectes, .imgConcept, .imgFondateur{
+    .imgPhotoInsectes, .imgConcept, .imgFondateur{
       display: block;
-      margin: auto;
-    }*/
+      margin: 2% auto;
+    }
 
     .boutonCarte{
       padding: 20px;
       font-size: 15px;
     }
+	.titreArticle, .textArticle{
+	  text-align: center;
+	  width: 90%;
+	  margin: auto;
+	  opacity: 1;
+	}
 }
 
+/* menu */
 
 .text-center{
   text-align: center;
