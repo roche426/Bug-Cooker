@@ -231,86 +231,86 @@ h3,h4, h5{
 }
 
 
-/* resto page */
+/* restaurant page */
 
-/* our restaurents section */
-
-.restaurantLocation{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
+/* our restaurants section */
 
 #map{
-  margin: auto;;
+    margin: auto;
 }
 
-.embed-responsive-4by3 {
-  padding-bottom: 90%;
-}
-
-.col-thumbnail{
-  padding: 0;
+.restaurantLocation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .idRestaurentThumbnail{
 	border: 1px none #ddd;
 	box-shadow: 0 0 0 rgba(0,0,0,.075);
-  background-color: rgba(0,0,0,.075);
-  margin: 2%;
+    background-color: rgba(0,0,0,.075);
+    margin: 2%;
+	width: 300px;
+}
+
+.col-thumbnail{
+    padding: 0;
 }
 
 .linkMail{
-  display: block;
-  margin-bottom: 10px;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .linkAdress{
-  min-height: 60px;
-  display: block;
+    min-height: 60px;
+    display: block;
 }
 
 .linkAdressDisable:link, .linkAdressDisable:visited, .linkAdressDisable:hover, .linkAdressDisable:active{
-  color: black;
-  cursor: pointer;
-  text-decoration: none;
-  pointer-events: none;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    pointer-events: none;
 }
 
 @media screen and (max-width: 768px) {
-  .linkAdressDisable:link, .linkAdressDisable:hover{
-    color: blue;
-    cursor: default;
-    text-decoration: underline;
-    pointer-events: auto;
+    .linkAdressDisable:link, .linkAdressDisable:hover{
+	    color: blue;
+	    cursor: default;
+	    text-decoration: underline;
+	    pointer-events: auto;
   }
 
-  .linkAdressDisable:visited {
-    color: purple;
-    cursor: auto;
+    .linkAdressDisable:visited {
+	    color: purple;
+	    cursor: auto;
   }
 }
-
-
 
 /* contact section */
 
 #contactPresentation{
-  margin: 5%;
+    margin: 5%;
 }
 
 #formH2, #locationH2{
-  margin-top: 5%;
-  margin-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .formElement{
-  margin: 5%;
+    margin: 5%;
+}
+
+#pContact{
+	font-weight: bold;
 }
 
 #sendButton{
-  display: block;
-  margin: auto;
+    display: block;
+    margin: auto;
 }
