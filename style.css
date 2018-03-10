@@ -99,19 +99,11 @@ h2{
 	text-align: center;
 }
 
-.arrierePlanTitre{
-  background-color: rgb(222,206,181);
-  border-radius: 25px;
-  margin: 1% auto;
-  width: 80%;
-}
-
-.yellowIndicators li{
-	background-color: rgb(217,168,0); /* couleur indicateurs inactifs*/
-}
-
-.yellowIndicators .active{
-	background-color: rgba(217,168,0,0.3); /*couleur indicateur actif */
+.arrierePlanTitre{ /* à renommer tiret + anglais*/
+    background-color: rgb(222,206,181);
+    border-radius: 25px;
+    margin: 1% auto;
+    width: 80%;
 }
 
 .imgConcept{
@@ -127,18 +119,37 @@ h2{
   margin-top: 0px;
 }
 
-.contentCarousel{
+@media only screen and (max-width: 992px) {
+    .imgFondateur {
+	    display: block;
+	    margin: auto;
+    }
+    .fondateur01 {
+    	margin: 0px;
+  }
+}
+
+.color-indicators li {
+	background-color: rgb(217,168,0); /* couleur indicateurs inactifs*/
+}
+
+.color-indicators .active {
+	background-color: rgba(217,168,0,0.3); /*couleur indicateur actif */
+}
+
+.content-carousel {
   /*background-size: 1200px 500px;*/
   /*height: 500px;*/
   border: none;
 }
 
-.carouselTaille{
+.size-carousel {
   height: 550px;
   border: none;
 }
 
-.titreArticle, .textArticle{
+.header-carousel,
+.p-carousel {
   text-align: center;
   width: 70%;
   margin: auto;
@@ -149,76 +160,94 @@ h2{
 	background-color: rgb(222,206,181); /*couleur fond carousel*/
 }
 
-.titreArticle{
+.header-carousel {
   font-size: 30px;
   padding-top: 2%;
   font-weight: bold;
   padding-bottom: : 1%;
 }
 
-.textArticle{
+.p-carousel {
   font-size: 20px;
 }
 
-.imgCarousel{
+.img-carousel {
 	margin: auto;
 	padding-top: 1%;
 	padding-bottom: 2%;
 }
 
-#aDecouvrezCarte{
+.more-info-button {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 70%;
+	margin: 1%;
+	background-color: orange;
+	width: 125px;
+	height: 35px;
+	border-radius: 5px 20px 5px;
+	color: black;
+}
+
+#aDecouvrezCarte {
 	display: block;
 	text-align: center;
 	font-size: 30px;
 	padding: 2%;
 }
 
-@media only screen and (min-width: 720px){
-  .imgResponsiveMobile{
-    display: none;
-    text-align: center;
+.img-responsive-mobile {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .panel-body {
+        margin: auto;
+        text-align: center;
+    }
+    .blocConcept {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .describFondateur {
+        text-align: center;
+    }
+    #myCarousel {
+        display: none;
+    }
+    .imgPhotoInsectes,
+	.imgConcept,
+	.imgFondateur {
+        display: block;
+        margin: 2% auto;
+    }
+
+    .boutonCarte {
+        padding: 20px;
+        font-size: 15px;
+    }
+	.header-carousel,
+	.p-carousel {
+	    text-align: center;
+	    width: 90%;
+	    margin: auto;
+	    opacity: 1;
 	}
-}
-
-@media only screen and (max-width: 992px){
-  .imgFondateur{
-    display: block;
-    margin: auto;
-  }
-  .fondateur01{
-    margin: 0px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-    .panel-body{
-      margin: auto;
-      text-align: center;
-    }
-    .blocConcept{
-      display: flex;
-      flex-wrap: wrap-reverse;
-    }
-    .describFondateur{
-      text-align: center;
-    }
-    #myCarousel{
-      display: none;
-    }
-    .imgPhotoInsectes, .imgConcept, .imgFondateur{
-      display: block;
-      margin: 2% auto;
-    }
-
-    .boutonCarte{
-      padding: 20px;
-      font-size: 15px;
-    }
-	.titreArticle, .textArticle{
-	  text-align: center;
-	  width: 90%;
-	  margin: auto;
-	  opacity: 1;
+	.img-responsive-mobile {
+		display: block;
+		text-align: center;
+	}
+	#more-info-div{
+		position: relative;
+		height: 50px;
+	}
+	.more-info-button {
+		margin: 1% 0;
+		width: 125px;
+		top: 50%; left: 50%;
+    	transform: translate(-50%, -50%);
+		height: 30px;
 	}
 }
 

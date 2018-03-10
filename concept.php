@@ -57,66 +57,69 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="panel panel-default arrierePlanTitre"><!--carousel slides-->
-        <h2 class="panel-body titreConcept">Pourquoi les insectes ?</h2>
-      </div>
-      <div id="myCarousel" class="carousel slide" data-interval="0">
-        <ol class="carousel-indicators yellowIndicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
 
-        <div class="carousel-inner carouselTaille">
-          <div class="item active contentCarousel">
-              <h2 class="titreArticle">Bienfaits pour la santé</h2>
-              <p class="textArticle">C'est un apport nutritionnel exceptionnel très riche en proteine et pauvre en matière grasse.</p>
-              <img class="img-responsive imgCarousel" src="Images/alimentation.jpg" alt="slide alimentation"/>
-              </div>
+    <section class="container"><!-- why eating insects section-->
+        <div class="panel panel-default arrierePlanTitre"><!--carousel slides-->
+            <h2 class="panel-body titreConcept">Pourquoi les insectes ?</h2>
+        </div>
+        <div id="myCarousel" class="carousel slide" data-interval="0">
+            <ol class="carousel-indicators color-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner size-carousel">
+                <div class="item active content-carousel">
+                    <h2 class="header-carousel">Bienfaits pour la santé</h2>
+                    <p class="p-carousel">C'est un apport nutritionnel exceptionnel très riche en proteine et pauvre en matière grasse.</p>
+                    <img class="img-responsive img-carousel" src="Images/alimentation.jpg" alt="slide alimentation"/>
+                    <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
+                </div>
+                <div class="item content-carousel">
+                    <h2 class="header-carousel">Aspect environnemental de l'élevage d'insectes</h2>
+                    <p class="p-carousel">Un élevage d’insectes pollue 10 à 100 fois moins qu’un élevage de viande, il est également plus économique en eau.</p>
+                    <img class="img-responsive img-carousel" src="Images/impact-envir2.jpg" alt="slide environnement"/>
+                    <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
+                </div>
+                <div class="item content-carousel">
+                    <h2 class="header-carousel">Excellent taux de conversion</h2>
+                    <p class="p-carousel">La consommation d'insection peut etre une solution pour nourrir 9 milliards d’individus d’ici 2050, en effet le taux de conversion de la production d'insectes est excellente.</p>
+                    <img class="img-responsive img-carousel" src="Images/taux-conver2.jpg" alt="slide conversion"/>
+                    <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
+                </div>
+            </div>
 
-          <div class="item contentCarousel">
-              <h2 class="titreArticle">Aspect environnemental de l'élevage d'insectes</h2>
-              <p class="textArticle">Un élevage d’insectes pollue 10 à 100 fois moins qu’un élevage de viande, il est également plus économique en eau.</p>
-              <img class="img-responsive imgCarousel" src="Images/impact-envir2.jpg" alt="slide environnement"/>
-          </div>
-
-          <div class="item contentCarousel">
-              <h2 class="titreArticle">Excellent taux de conversion</h2>
-              <p class="textArticle">La consommation d'insection peut etre une solution pour nourrir 9 milliards d’individus d’ici 2050, en effet le taux de conversion de la production d'insectes est excellente.</p>
-              <img class="img-responsive imgCarousel" src="Images/taux-conver2.jpg" alt="slide conversion"/>
-          </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
 
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
-      <div class="container imgResponsiveMobile"><!--Mobile slide-->
+      <div class="container img-responsive-mobile"><!--Mobile slide-->
           <div>
-              <h2 class="titreArticle">Bienfaits pour la santé</h2>
-              <p class="textArticle">C'est un apport nutritionnel exceptionnel très riche en proteine et pauvre en matière grasse.</p>
+              <h2 class="header-carousel">Bienfaits pour la santé</h2>
+              <p class="p-carousel">C'est un apport nutritionnel exceptionnel très riche en proteine et pauvre en matière grasse.</p>
               <img class="imgPhotoInsectes img-responsive" src="Images/alimentation.jpg" alt="alimentation">
           </div>
           <div>
-              <h2 class="titreArticle">Aspect environnemental de l'élevage d'insectes</h2>
-              <p class="textArticle">Un élevage d’insectes pollue 10 à 100 fois moins qu’un élevage de viande, il est également plus économique en eau.</p>
+              <h2 class="header-carousel">Aspect environnemental de l'élevage d'insectes</h2>
+              <p class="p-carousel">Un élevage d’insectes pollue 10 à 100 fois moins qu’un élevage de viande, il est également plus économique en eau.</p>
               <img class="imgPhotoInsectes img-responsive" src="Images/impact-envir2.jpg" alt="...">
           </div>
           <div>
-              <h2 class="titreArticle">Excellent taux de conversion</h2>
-              <p class="textArticle">La consommation d'insection peut etre une solution pour nourrir 9 milliards d’individus d’ici 2050, en effet le taux de conversion de la production d'insectes est excellente.</p>
+              <h2 class="header-carousel">Excellent taux de conversion</h2>
+              <p class="p-carousel">La consommation d'insection peut etre une solution pour nourrir 9 milliards d’individus d’ici 2050, en effet le taux de conversion de la production d'insectes est excellente.</p>
               <img class="imgPhotoInsectes img-responsive" src="Images/taux-conver2.jpg" alt="...">
           </div>
+          <div id="more-info-div">
+              <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
+          </div>
       </div>
-
-    </div>
+  </section>
 
   <div class="container">
     <div class="row">
