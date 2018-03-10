@@ -1,4 +1,23 @@
 /*CSS Header et Footer*/
+.borderBlue{
+	border: 1px solid blue;
+}
+
+.borderRed{
+	border: 1px solid red;
+}
+
+body {
+	margin-top: 2%;
+}
+
+.container{
+	background-color: rgb(217,168,0);
+	margin-top: 2%;
+}
+
+
+
 @font-face {
 	font-family: 'ABugsLife';
 	src: url(ABugsLife.ttf);
@@ -26,7 +45,7 @@ ul{
 	display: flex;
 	max-width: 50%;
 	min-width: 300px;;
-	margin: auto;
+	margin: 0 auto 2% auto;
 }
 /* CSS du Footer*/
 footer{
@@ -38,6 +57,11 @@ footer{
 	position: absolute;
 	margin-left: 20%;
 }
+
+.banniere_top{
+	margin-top: 2%;
+}
+
 .banniere_bottom_logo{
 	list-style: none;
 	position: absolute;
@@ -67,15 +91,35 @@ h3,h4, h5{
   font-weight: bold;
 }
 
-.titreConcept{
-  font-size: 25px;
-  font-weight: bold;
-  margin-left: 120px;
+/* concept page */
+/* concept*/
+h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
 }
 
 .arrierePlanTitre{
-  background-color: grey;
+  background-color: rgb(222,206,181);
   border-radius: 25px;
+  margin: 1% auto;
+  width: 80%;
+}
+
+.yellowIndicators li{
+	background-color: rgb(217,168,0);
+}
+
+.yellowIndicators .active{
+	background-color: rgba(217,168,0,0.3);
+}
+
+.imgConcept{
+	margin: 5% auto;
+}
+
+.imgFondateur{
+	margin-top: 5%;
 }
 
 .describFondateur{
@@ -83,53 +127,52 @@ h3,h4, h5{
   margin-top: 0px;
 }
 
-.fondateur01{
-  margin-bottom: -50px;
+.contentCarousel{
+  /*background-size: 1200px 500px;*/
+  /*height: 500px;*/
+  border: none;
 }
 
 .carouselTaille{
-  height: 400px;
-}
-
-.imgCarousel1{
-  background: url("https://fr.cdn.v5.futura-sciences.com/buildsv6/images/wide1920/c/3/4/c3449c7cc8_49335_def-insecte-mariea-flickr.jpg") no-repeat;
-}
-.imgCarousel2{
-  background: url("https://download.vikidia.org/vikidia/fr/images/f/f6/Mouche_verte.jpg") no-repeat;
-}
-.imgCarousel3{
-  background: url("https://www.abatextermination.ca/wp-content/uploads/2017/05/1-scarabee.jpg") no-repeat;
-}
-
-.imgCarousel1, .imgCarousel2, .imgCarousel3{
-  background-size: 1200px 400px;
-  height: 400px;
-  border: solid;
+  height: 550px;
+  border: none;
 }
 
 .titreArticle, .textArticle{
   text-align: center;
   width: 80%;
   margin: auto;
-  color: white;
-  opacity: 0.6;
+  opacity: 1;
+}
+
+.carousel-inner > .active {
+	background-color: rgb(222,206,181);
 }
 
 .titreArticle{
   font-size: 30px;
-  margin-top: 5%;
+  padding-top: 2%;
   font-weight: bold;
-  margin-bottom: 20px;
+  padding-bottom: : 1%;
 }
 .textArticle{
   font-size: 20px;
 }
 
+.imgCarousel{
+	margin: auto;
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+
+
 /* menu */
 
-.boutonCarte{
-  padding: 20px;
-  font-size: 40px;
+#aDecouvrezCarte{
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	padding: 2%;
 }
 
 @media only screen and (min-width: 720px){
@@ -137,10 +180,7 @@ h3,h4, h5{
     display: none;
     text-align: center;
   }
-  .imgConcept, .fondateur1{
-    display: block;
-    margin: auto;
-  }
+
 }
 
 @media only screen and (max-width: 992px){
@@ -165,16 +205,14 @@ h3,h4, h5{
     .describFondateur{
       text-align: center;
     }
-    .fondateur01, .fondateur02{
-      margin-bottom: -20px;
-    }
     #myCarousel{
       display: none;
     }
-    .imgPhotoInsectes, .imgConcept, .imgFondateur{
+    /*.imgPhotoInsectes, .imgConcept, .imgFondateur{
       display: block;
       margin: auto;
-    }
+    }*/
+
     .boutonCarte{
       padding: 20px;
       font-size: 15px;
