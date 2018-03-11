@@ -235,11 +235,11 @@ h3,h4, h5{
 
 /* our restaurants section */
 
-#map{
+#map {
     margin: auto;
 }
 
-.restaurantLocation{
+.restaurant-location {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -248,7 +248,7 @@ h3,h4, h5{
     margin-bottom: 5%;
 }
 
-.idRestaurentThumbnail{
+.restaurent-thumbnail {
 	border: 1px none #ddd;
 	box-shadow: 0 0 0 rgba(0,0,0,.075);
     background-color: rgba(0,0,0,.075);
@@ -256,21 +256,24 @@ h3,h4, h5{
 	width: 300px;
 }
 
-.col-thumbnail{
+.col-thumbnail {
     padding: 0;
 }
 
-.linkMail{
+.link-mail {
     display: block;
     margin-bottom: 10px;
 }
 
-.linkAdress{
+.link-adress {
     min-height: 60px;
     display: block;
 }
 
-.linkAdressDisable:link, .linkAdressDisable:visited, .linkAdressDisable:hover, .linkAdressDisable:active{
+.link-adress-disable:link,
+.link-adress-disable:visited,
+.link-adress-disable:hover,
+.link-adress-disable:active {
     color: black;
     cursor: pointer;
     text-decoration: none;
@@ -278,39 +281,38 @@ h3,h4, h5{
 }
 
 @media screen and (max-width: 768px) {
-    .linkAdressDisable:link, .linkAdressDisable:hover{
+    .link-adress-disable:link,
+	.link-adress-disable:hover {
 	    color: blue;
 	    cursor: default;
 	    text-decoration: underline;
 	    pointer-events: auto;
-  }
+    }
 
-    .linkAdressDisable:visited {
+    .link-adress-disable:visited {
 	    color: purple;
 	    cursor: auto;
-  }
+    }
 }
 
 /* contact section */
 
-#contactPresentation{
-    margin: 5%;
-}
 
-#formH2, #locationH2{
+#form-h2,
+#location-h2 {
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-.formElement{
+.form-element {
     margin: 5%;
 }
 
-#pContact{
+#p-contact {
 	font-weight: bold;
 }
 
-#sendButton{
+#send-button {
     display: block;
     margin: auto;
 }
