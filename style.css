@@ -8,21 +8,18 @@ body{
 	background-image: url("fond3.jpg");
 }
 /*CSS banniere top*/
-ul{
-	margin-left: auto;
-	margin-right: auto;
-}
 .nav{
 	display: flex;
 	justify-content: center;
 	margin-bottom: 40px;
+
 }
 .nav_text{
 	font-size: 40px;
 	color: white;
 	font-family: 'Times';
 	margin-bottom: -25px;
-	width: 300px;
+	max-width: 300px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -64,31 +61,25 @@ ul{
 }
 
 /* CSS du Footer*/
-footer{
-	margin-bottom: 20px;
-}
 .banniere_bottom1{
 	position: absolute;
 	list-style: none;
 	width: 500px;
-	margin-left: 50%;
+	margin-left: 30%;
 }
 .banniere_bottom2{
 		position: absolute;
 		list-style: none;
 		width: 500px;
 		left: 60%;
-		margin-top: 20px;
 }
-.banniere_bottom_logo{
+/*.banniere_bottom_logo{
 	position: absolute;
 	list-style: none;
 	display: inline-flex;
 	margin-right: 40%;
-	margin-bottom: 20%;
-	right:0;
 }
-/*.taille_logo{
+.taille_logo{
 	position: absolute;
 	width: 50px;
 	height: 50px;
@@ -105,7 +96,6 @@ footer{
 	font-family: 'ABugsLife';
 	font-size: 30px;
 	margin-left: 10%;
-	margin-top: 2%;
 }
 
 /*Responsive footer*/
