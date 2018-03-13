@@ -21,8 +21,8 @@
     <br>
 
     <div class="container">
-        <div class="panel panel-default arrierePlanTitre">
-            <div class="panel-body titreConcept">Bug Cookers : Gastronomie et Insectes dans la même assiette !</div>
+        <div class="panel panel-default titleSection">
+            <div class="panel-body">Bug Cookers : Gastronomie et Insectes dans la même assiette</div>
         </div>
         <br
             <div class="row blocConcept" >
@@ -33,79 +33,97 @@
                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
                 </div>
                 <div class="col-md-4 col-xs-12">
-                    <img class="imgConcept" src="Images/sushi_1.jpg" alt="X">
+                    <img class="imgConcept img-responsive" src="Images/sushi_1.jpg" alt="X">
                 </div>
             </div>
     </div>
 
     <br>
 
-    <div class="container">
-        <div class="panel panel-default arrierePlanTitre">
-            <div class="panel-body titreConcept">Manger des insectes : tous les bienfaits !</div>
+    <section class="container "><!-- why eating insects section-->
+        <div class="panel panel-default titleSection"><!--carousel slides-->
+            <h2 class="panel-body titleSection">Manger des insectes : tous les bienfaits</h2>
         </div>
-            <div id="myCarousel" class="carousel slide" data-interval="0">
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-
-                <div class="carousel-inner">
-                    <div class="item active imgCarousel1">
-                        <h2 class="titreArticle">Titre 1</h2>
-                        <p class="textArticle">En savoir plus >></p>
-
-                    </div>
-
-                    <div class="item imgCarousel2">
-                        <img src="Images/tauxDeConversion.jpg" no-repeat;>
-                        <h2 class="titreArticle">Titre 2</h2>
-                        <p class="textArticle">En savoir plus >></p>
-                    </div>
-
-                    <div class="item imgCarousel3">
-                        <img src="Images/tauxDeConversion.jpg" no-repeat;>
-                        <h2 class="titreArticle">Titre 3</h2>
-                        <p class="textArticle">En savoir plus >></p>
-                    </div>
+        <div id="myCarousel" class="carousel slide" data-interval="0">
+            <ol class="carousel-indicators color-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner size-carousel">
+                <div class="item active content-carousel">
+                    <h4 class="header-carousel">Bienfaits pour la santé</h4>
+                    <p class="p-carousel">C'est un apport nutritionnel exceptionnel très riche en proteine et pauvre en matière grasse.</p>
+                    <img class="img-responsive img-carousel" src="Images/alimentation.jpg" alt="slide alimentation"/>
+                    <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
                 </div>
-
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                <div class="item content-carousel">
+                    <h4 class="header-carousel">Aspect environnemental de l'élevage d'insectes</h4>
+                    <p class="p-carousel">Un élevage d’insectes pollue 10 à 100 fois moins qu’un élevage de viande, il est également plus économique en eau.</p>
+                    <img class="img-responsive img-carousel" src="Images/impact-envir2.jpg" alt="slide environnement"/>
+                    <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
+                </div>
+                <div class="item content-carousel">
+                    <h4 class="header-carousel">Excellent taux de conversion</h4>
+                    <p class="p-carousel">La consommation d'insection peut etre une solution pour nourrir 9 milliards d’individus d’ici 2050, en effet le taux de conversion de la production d'insectes est excellente.</p>
+                    <img class="img-responsive img-carousel" src="Images/taux-conver2.jpg" alt="slide conversion"/>
+                    <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
+                </div>
             </div>
 
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
 
-    </div>
+      <div class="container img-responsive-mobile"><!--Mobile slide-->
+          <div>
+              <h2 class="header-carousel">Bienfaits pour la santé</h2>
+              <p class="p-carousel">C'est un apport nutritionnel exceptionnel très riche en proteine et pauvre en matière grasse.</p>
+              <img class="imgPhotoInsectes img-responsive" src="Images/alimentation.jpg" alt="alimentation">
+          </div>
+          <div>
+              <h2 class="header-carousel">Aspect environnemental de l'élevage d'insectes</h2>
+              <p class="p-carousel">Un élevage d’insectes pollue 10 à 100 fois moins qu’un élevage de viande, il est également plus économique en eau.</p>
+              <img class="imgPhotoInsectes img-responsive" src="Images/impact-envir2.jpg" alt="...">
+          </div>
+          <div>
+              <h2 class="header-carousel">Excellent taux de conversion</h2>
+              <p class="p-carousel">La consommation d'insection peut etre une solution pour nourrir 9 milliards d’individus d’ici 2050, en effet le taux de conversion de la production d'insectes est excellente.</p>
+              <img class="imgPhotoInsectes img-responsive" src="Images/taux-conver2.jpg" alt="...">
+          </div>
+          <div id="more-info-div">
+              <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
+          </div>
+      </div>
+  </section>
 
     <br>
 
     <div class="container">
-        <div class="panel panel-default arrierePlanTitre">
-            <div class="panel-body titreConcept">En savoir plus sur nous!</div>
-        </div>
+            <h2 class="text-center titre-section">En savoir plus sur nous</h2>
+        <br>
         <div class="row blocFondateur">
-            <div class="col-md-2  fondateur1">
+            <div class="col-md-2  portraitFounder1">
                 <img class="imgFondateur" src="Images/jo_Portrait.jpg" width="150px" alt="...">
                 <h4>Jonathan PLANTEY</h4>
             </div>
-            <div class="col-md-8 col-md-offset-1 describFondateur">
+            <div class="col-md-8 describFondateur1">
                 <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
             </div>
         </div>
         <br><hr class="founderSepation"><br>
         <div class="row">
-            <div class="col-md-2 fondateur2">
+            <div class="col-md-2 portraitFondateur2">
                 <img class="imgFondateur" src="Images/laurent-Portrait.jpg" width="150px" alt="...">
                 <h4>Laurent AUBERTIN</h4>
             </div>
-            <div class="col-md-8 col-md-offset-1 describFondateur1">
+            <div class="col-md-8 describFondateur2">
                 <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
             </div>
         </div>
@@ -128,5 +146,4 @@
         <?php include("footer.php");?>
     </footer>
 
-</body>
 </html>
