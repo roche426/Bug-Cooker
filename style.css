@@ -1,9 +1,10 @@
-/*CSS Header et Footer*/
+/* All pages*/
+
 @font-face {
 	font-family: 'ABugsLife';
 	src: url(ABugsLife.ttf);
 }
-/*CSS banniere top*/
+
 body {
 	background-image: url('Images/fond3.jpg');
 	color: rgb(215,215,215);
@@ -14,7 +15,21 @@ body {
 .titre-section {
 	font-size: 25px;
 	font-weight: bold;
+	padding: 10px;
 }
+
+p {
+  text-align: justify;
+}
+
+h3,
+h4,
+h5 {
+  text-align: center;
+  font-weight: bold;
+}
+
+/*CSS Header*/
 
 ul{
 	margin-left: auto;
@@ -27,7 +42,7 @@ ul{
 .nav_text{
 	font-size: 40px;
 	color: black;
-	font-family: 'ABugsLife';
+	font-family: Times;
 }
 
 #logo_restaurant_head{
@@ -36,44 +51,9 @@ ul{
 	min-width: 300px;;
 	margin: auto;
 }
-/* CSS du Footer*/
-footer{
-	background-color: white;
-	margin: auto;
-}
-.banniere_bottom{
-	list-style: none;
-	position: absolute;
-	margin-left: 20%;
-}
-.banniere_bottom_logo{
-	list-style: none;
-	position: absolute;
-	margin-left: 60%;
-	margin-bottom: 20%;
-}
-.taille_logo{
-	width: 40px;
-	height: 40px;
-	margin-bottom: 10px;
-}
 
-#logo_restaurant_foot{
-	display: block;
-	width: 200px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50px;
-}
 
-p{
-  text-align: justify;
-}
 
-h3,h4, h5{
-  text-align: center;
-  font-weight: bold;
-}
 
 .titreConcept{
   font-size: 25px;
@@ -161,11 +141,7 @@ h3,h4, h5{
   }
 }
 
-@media screen and (max-width: 720px) {
-    .panel-body{
-      margin: auto;
-      text-align: center;
-    }
+@media screen and (max-width: 768px) {
     .blocConcept{
       display: flex;
       flex-wrap: wrap-reverse;
@@ -187,11 +163,6 @@ h3,h4, h5{
       padding: 20px;
       font-size: 15px;
     }
-}
-
-
-.text-center{
-  text-align: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -238,7 +209,6 @@ h3,h4, h5{
     overflow: hidden;
 }
 
-
 /* restaurant page */
 
 #location-h2,
@@ -247,7 +217,6 @@ h3,h4, h5{
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
-
 
 /* our restaurants section */
 #map {
@@ -258,7 +227,6 @@ h3,h4, h5{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -315,7 +283,7 @@ h3,h4, h5{
     pointer-events: none;
 }
 
-.btn-green{
+.btn-color{
 	background-color: #AAFE79;
 	color: rgb(62,62,62);
 }
@@ -337,16 +305,41 @@ h3,h4, h5{
 
 /* contact section */
 
-.form-element {
-    margin: 5%;
-}
-
-#p-contact {
-	font-weight: bold;
-	background-color:
+label {
+	margin-top: 10px;
 }
 
 #send-button {
     display: block;
-    margin: auto;
+    margin: 10px auto;
+}
+
+/* CSS du Footer*/
+footer{
+	background-color: white;
+	margin: auto;
+}
+.banniere_bottom{
+	list-style: none;
+	position: absolute;
+	margin-left: 20%;
+}
+.banniere_bottom_logo{
+	list-style: none;
+	position: absolute;
+	margin-left: 60%;
+	margin-bottom: 20%;
+}
+.taille_logo{
+	width: 40px;
+	height: 40px;
+	margin-bottom: 10px;
+}
+
+#logo_restaurant_foot{
+	display: block;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
 }
