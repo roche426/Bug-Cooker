@@ -103,6 +103,8 @@ footer{
 }
 
 
+
+
 p{
   text-align: justify;
   color: white;
@@ -192,12 +194,43 @@ h3,h4, h5{
 /* menu */
 
 .boutonCarte{
-  margin-bottom: 20px;
+	margin: 20px;
   padding: 20px;
   font-size: 40px;
-  background: rgba(255,255,255, 0.4);
-  border: 1px solid #82C46C;
+  	border-width: thick;
+  border-radius: 25px;
+  border-color: rgb(156, 129, 115);
+  background-color: rgb(156, 129, 115);
 }
+
+.boutonCarte:hover{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
+.boutonCarte:active{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
+.boutonCarte:active:hover{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
+.boutonCarte:active:focus{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
 
 @media only screen and (min-width: 720px){
   .imgResponsiveMobile{
@@ -249,27 +282,26 @@ h3,h4, h5{
 }
 
 
-.text-center{
-  text-align: center;
+/* MENU */
+
+
+/* .specialite{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
+*/
 
 @media screen and (min-width: 992px) {
   .specialite {
-    height: 500px
+    height: 420px
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .specialiteLG1{
-    height: 410px
-  }
-  .specialiteLG2{
+  .specialite{
     height: 450px
   }
-}
-
-.bottom{
-  vertical-align: bottom;
 }
 
 .accordion {
