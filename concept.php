@@ -18,7 +18,7 @@
 
     <div class="container">
       <div class="panel panel-default arrierePlanTitre">
-        <div class="panel-body titreConcept">Notre Concept</div>
+        <div class="panel-body titre-section">Notre Concept</div>
       </div>
         <div class="row blocConcept">
             <div class="col-md-6 col-md-offset-1">
@@ -37,7 +37,7 @@
 
     <div class="container">
       <div class="panel panel-default arrierePlanTitre">
-        <div class="panel-body titreConcept">Les Fondateurs</div>
+        <div class="panel-body titre-section">Les Fondateurs</div>
       </div>
       <div class="row blocFondateur">
         <div class="col-md-2 col-md-offset-1 fondateur01">
@@ -65,7 +65,7 @@
 
     <div class="container">
       <div class="panel panel-default arrierePlanTitre">
-        <div class="panel-body titreConcept">Pourquoi les insectes ?</div>
+        <div class="panel-body titre-section">Pourquoi les insectes ?</div>
       </div>
       <div id="myCarousel" class="carousel slide" data-interval="0">
         <ol class="carousel-indicators">
