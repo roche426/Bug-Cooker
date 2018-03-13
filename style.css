@@ -5,21 +5,23 @@
 }
 
 body{
-	background-image: url("fond3.jpg");
+	background: url("fond3.jpg");
+	width: 100%;
+	height: 100%;
 }
 /*CSS banniere top*/
 .nav{
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	margin-bottom: 40px;
-
 }
 .nav_text{
 	font-size: 40px;
-	color: white;
+	color:  #32CD32;
+	text-shadow: #000000 1px 1px;
 	font-family: 'Times';
 	margin-bottom: -25px;
-	max-width: 300px;
+	width: 300px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -42,7 +44,7 @@ body{
 	 background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 /*Responsive header*/
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1000px){
 	.nav{
 		flex-direction: column;
 		margin-bottom: 0px;
@@ -61,53 +63,46 @@ body{
 }
 
 /* CSS du Footer*/
-.banniere_bottom1{
-	position: absolute;
-	list-style: none;
-	width: 500px;
-	margin-left: 30%;
+footer{
+	background-color: rgba(250,250,250,0.08)
 }
-.banniere_bottom2{
-		position: absolute;
-		list-style: none;
-		width: 500px;
-		left: 60%;
+.dispo_footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
-/*.banniere_bottom_logo{
-	position: absolute;
-	list-style: none;
-	display: inline-flex;
-	margin-right: 40%;
-}
-.taille_logo{
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	padding: 5px;
-}*/
+/*modification des liens pieds de page*/
 .text_foot{
 	color: white;
+	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 	font-family: Times;
 	font-size: 18px;
 }
 #logo_footer{
-	position: absolute;
 	color: white;
+	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 	font-family: 'ABugsLife';
 	font-size: 30px;
-	margin-left: 10%;
+}
+.banniere_bottom1{
+	list-style: none;
+	text-align: center;
+	padding: 0;
 }
 
 /*Responsive footer*/
-@media screen and (max-width: 700px){
-
+@media screen and (max-width: 640px){
+	.dispo_footer{
+		flex-direction: column;
+		justify-content: center;
+		margin-top: 10px;
+	}
 }
-
-
 
 
 p{
   text-align: justify;
+  color: white;
 }
 
 h3,h4, h5{
@@ -118,13 +113,19 @@ h3,h4, h5{
 .titreConcept{
   font-size: 25px;
   font-weight: bold;
+  color: #32CD32;
+  text-shadow: #000000 1px 1px;
 }
 
 .arrierePlanTitre{
-	margin-top: 40px;
-  background-color: white;
+  margin-top: 40px;
   border-radius: 25px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
   text-align: center;
+  background: rgba(169,169,169,0.6);
 }
 
 .describFondateur{
