@@ -226,19 +226,25 @@ h3,h4, h5{
 }
 
 
+/* MENU */
+
+
+/* .specialite{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+*/
 
 @media screen and (min-width: 992px) {
   .specialite {
-    height: 520px
+    height: 420px
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .specialiteLG1{
-    height: 430px
-  }
-  .specialiteLG2{
-    height: 470px
+  .specialite{
+    height: 450px
   }
 }
 
