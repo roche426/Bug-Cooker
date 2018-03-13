@@ -8,7 +8,7 @@ body {
 	background-image: url('Images/fond3.jpg');
 	color: rgb(215,215,215);
 	font-family: Times, sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .titre-section {
@@ -276,7 +276,7 @@ h3,h4, h5{
 .restaurant-thumbnail > h3,
 .restaurant-thumbnail > p {
 	color: rgb(215,215,215);
-	font-family: 'Marvel', sans-serif;
+	font-family: Times, sans-serif;
 	background-color: rgb(62,62,62);
 }
 
@@ -290,8 +290,8 @@ h3,h4, h5{
 	border : 1px solid rgb(255,255,255);
 }
 
-.restaurant-thumbnail > h3 {
-	margin-top: 10px;
+.restaurant-thumbnail h3 {
+	margin-top: 0;
 }
 
 .link-mail {
@@ -301,7 +301,7 @@ h3,h4, h5{
 }
 
 .link-adress {
-    min-height: 60px;
+    min-height: 70px;
     display: block;
 }
 
