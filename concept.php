@@ -121,7 +121,7 @@
     </div>
   </div>
 
-  <footer class="banniere_top">
+  <footer>
       <?php include("footer.php");?>
   </footer>
 
