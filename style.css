@@ -1,11 +1,12 @@
-/*CSS Header et Footer*/
+/* All pages*/
+
 @font-face {
 	font-family: 'ABugsLife';
 	src: url(ABugsLife.ttf);
 }
 
 body{
-	background: url("fond3.jpg");
+	background-image: url('Images/fond3.jpg');
 	width: 100%;
 	height: 100%;
 }
@@ -23,6 +24,7 @@ body{
 	margin-bottom: -25px;
 	width: 300px;
 	text-align: center;
+
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -65,7 +67,8 @@ body{
 
 /* CSS du Footer*/
 footer{
-	background-color: rgba(250,250,250,0.08)
+	background-color: rgba(250,250,250,0.08);
+
 }
 .dispo_footer{
 	display: flex;
@@ -102,18 +105,11 @@ footer{
 }
 }
 
-
-
-
 p{
   text-align: justify;
   color: white;
 }
 
-h3,h4, h5{
-  text-align: center;
-  font-weight: bold;
-}
 
 .titre-section{
   font-size: 30px;
@@ -253,11 +249,7 @@ h3,h4, h5{
   }
 }
 
-@media screen and (max-width: 720px) {
-    .panel-body{
-      margin: auto;
-      text-align: center;
-    }
+@media screen and (max-width: 768px) {
     .blocConcept{
       display: flex;
       flex-wrap: wrap-reverse;
@@ -283,14 +275,6 @@ h3,h4, h5{
 
 
 /* MENU */
-
-
-/* .specialite{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-*/
 
 @media screen and (min-width: 992px) {
   .specialite {
@@ -329,88 +313,107 @@ h3,h4, h5{
     overflow: hidden;
 }
 
+/* restaurant page */
 
-/* resto page */
-
-/* our restaurents section */
-
-.restaurantLocation{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
+#location-h2,
+#form-h2 {
+	background-color: rgb(62,62,62);
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
-
-#map{
-  margin: auto;;
+/* our restaurants section */
+#map {
+    margin: auto;
 }
 
-.embed-responsive-4by3 {
-  padding-bottom: 90%;
+.restaurant-location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.col-thumbnail{
-  padding: 0;
-}
-
-.idRestaurentThumbnail{
+.restaurant-thumbnail {
 	border: 1px none #ddd;
 	box-shadow: 0 0 0 rgba(0,0,0,.075);
-  background-color: rgba(0,0,0,.075);
-  margin: 2%;
+    background-color: rgba(0,0,0,.075);
+    margin: 2% ;
+	width: 250px;
 }
 
-.linkMail{
-  display: block;
-  margin-bottom: 10px;
+.restaurant-thumbnail > .thumbnail ,
+.restaurant-thumbnail > .caption ,
+.restaurant-thumbnail > h3,
+.restaurant-thumbnail > p {
+	color: rgb(215,215,215);
+	font-family: Times, sans-serif;
+	background-color: rgb(62,62,62);
 }
 
-.linkAdress{
-  min-height: 60px;
-  display: block;
+.col-thumbnail {
+    padding: 0;
 }
 
-.linkAdressDisable:link, .linkAdressDisable:visited, .linkAdressDisable:hover, .linkAdressDisable:active{
-  color: black;
-  cursor: pointer;
-  text-decoration: none;
-  pointer-events: none;
+.restaurant-thumbnail > .caption {
+	border-radius: 25px;
+	border : 1px solid rgb(255,255,255);
+}
+
+.restaurant-thumbnail h3 {
+	margin-top: 0;
+}
+
+.link-mail {
+    display: block;
+    margin-bottom: 10px;
+	color : blue;
+}
+
+.link-adress {
+    min-height: 70px;
+    display: block;
+}
+
+.link-adress-disable:link,
+.link-adress-disable:visited,
+.link-adress-disable:hover,
+.link-adress-disable:active {
+    color: rgb(215,215,215);
+    cursor: pointer;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.btn-color {
+	background-color: #AAFE79;
+	color: rgb(62,62,62);
 }
 
 @media screen and (max-width: 768px) {
-  .linkAdressDisable:link, .linkAdressDisable:hover{
-    color: blue;
-    cursor: default;
-    text-decoration: underline;
-    pointer-events: auto;
-  }
+    .link-adress-disable:link,
+	.link-adress-disable:hover {
+	    color: blue;
+	    cursor: default;
+	    text-decoration: underline;
+	    pointer-events: auto;
+    }
 
-  .linkAdressDisable:visited {
-    color: purple;
-    cursor: auto;
-  }
+    .link-adress-disable:visited {
+	    color: purple;
+	    cursor: auto;
+    }
 }
-
-
 
 /* contact section */
 
-#contactPresentation{
-  margin: 5%;
+label {
+	margin-top: 10px;
+	color: white;
 }
 
-#formH2, #locationH2{
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.formElement{
-  margin: 5%;
-}
-
-#sendButton{
-  display: block;
-  margin: auto;
+#send-button {
+    display: block;
+    margin: 10px auto;
 }
