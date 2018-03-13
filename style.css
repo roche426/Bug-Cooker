@@ -5,44 +5,34 @@
 	src: url(ABugsLife.ttf);
 }
 
-body {
+body{
 	background-image: url('Images/fond3.jpg');
-	color: white;
-	font-family: Times, sans-serif;
-	font-size: 14px;
+	width: 100%;
+	height: 100%;
 }
-
-.titre-section {
-	font-size: 25px;
-	font-weight: bold;
-	padding: 10px;
+/*CSS banniere top*/
+.nav{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
 }
+.nav_text{
+	font-size: 30px;
+	color:  white;
+	text-shadow: #000000 1px 1px;
+	font-family: 'Times';
+	margin-bottom: -25px;
+	width: 300px;
+	text-align: center;
 
-p {
-  text-align: justify;
-}
-
-h3,
-h4,
-h5 {
-  text-align: center;
-  font-weight: bold;
-}
-
-/*CSS Header*/
-
-ul{
 	margin-left: auto;
 	margin-right: auto;
 }
-.nav{
-	display: flex;
-	justify-content: space-around;
+.nav_text:hover{
+	color: #82C46C;
 }
-.nav_text{
-	font-size: 40px;
-	color: black;
-	font-family: Times;
+.nav_text:active{
+	text-decoration: underline;
 }
 
 #logo_restaurant_head{
@@ -51,19 +41,103 @@ ul{
 	min-width: 300px;;
 	margin: auto;
 }
+.ligne_separation{
+	 border: 0;
+	 height: 3px;
+	 background-image: linear-gradient(to right, rgba(130, 196, 108, 0), rgba(130, 196, 108, 0.75), rgba(130, 196, 108, 0));
+}
+/*Responsive header*/
+@media screen and (max-width: 1000px){
+	.nav{
+		flex-direction: column;
+		margin-bottom: 0px;
+	}
+	.nav_text{
+		text-align: center;
+		font-size: 30px;
+	}
+	#logo_restaurant_head{
+		margin-bottom: 0px;
+		margin-top: 25px;
+	}
+	.ligne_separation{
+		margin-bottom: 0;
+	}
+}
+
+/* CSS du Footer*/
+footer{
+	background-color: rgba(250,250,250,0.08);
+
+}
+.dispo_footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+/*modification des liens pieds de page*/
+.text_foot{
+	color: white;
+	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+	font-family: Times;
+	font-size: 18px;
+}
+#logo_footer{
+	color: white;
+	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+	font-family: 'ABugsLife';
+	font-size: 30px;
+}
+.banniere_bottom1{
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+/*Responsive footer*/
+@media screen and (max-width: 640px){
+.dispo_footer{
+		flex-direction: column;
+		justify-content: center;
+}
+footer{
+	margin-top: 20px;
+}
+}
+
+p{
+  text-align: justify;
+  color: white;
+}
 
 
-
-
-.titreConcept{
-  font-size: 25px;
+.titre-section{
+  font-size: 30px;
   font-weight: bold;
-  margin-left: 120px;
+  color: white;
+  text-shadow: #000000 1px 1px;
+}
+.titre-section:before, .titre-section:after{
+	content:'';
+	width: 40%;
+	border-bottom:rgba(130, 196, 108,1) double 2px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.titre-section:before{
+	margin-left:-100%;
+	margin-right:15px;
+}
+.titre-section:after{
+	margin-right:-100%;
+	margin-left:15px;
 }
 
 .arrierePlanTitre{
-  background-color: grey;
-  border-radius: 25px;
+  margin-top: 40px;
+  border: none;
+  text-align: center;
+  background:none;
 }
 
 .describFondateur{
@@ -116,9 +190,43 @@ ul{
 /* menu */
 
 .boutonCarte{
+	margin: 20px;
   padding: 20px;
   font-size: 40px;
+  	border-width: thick;
+  border-radius: 25px;
+  border-color: rgb(156, 129, 115);
+  background-color: rgb(156, 129, 115);
 }
+
+.boutonCarte:hover{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
+.boutonCarte:active{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
+.boutonCarte:active:hover{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
+.boutonCarte:active:focus{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
 
 @media only screen and (min-width: 720px){
   .imgResponsiveMobile{
@@ -165,23 +273,19 @@ ul{
     }
 }
 
+
+/* MENU */
+
 @media screen and (min-width: 992px) {
   .specialite {
-    height: 500px
+    height: 420px
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .specialiteLG1{
-    height: 410px
-  }
-  .specialiteLG2{
+  .specialite{
     height: 450px
   }
-}
-
-.bottom{
-  vertical-align: bottom;
 }
 
 .accordion {
@@ -254,7 +358,6 @@ ul{
 
 .restaurant-thumbnail > .caption {
 	border-radius: 25px;
-	/*box-shadow : 6px 6px 2px 2px rgba(100,100,100,.5);*/
 	border : 1px solid rgb(255,255,255);
 }
 
@@ -283,7 +386,7 @@ ul{
     pointer-events: none;
 }
 
-.btn-color{
+.btn-color {
 	background-color: #AAFE79;
 	color: rgb(62,62,62);
 }
@@ -307,39 +410,10 @@ ul{
 
 label {
 	margin-top: 10px;
+	color: white;
 }
 
 #send-button {
     display: block;
     margin: 10px auto;
-}
-
-/* CSS du Footer*/
-footer{
-	background-color: white;
-	margin: auto;
-}
-.banniere_bottom{
-	list-style: none;
-	position: absolute;
-	margin-left: 20%;
-}
-.banniere_bottom_logo{
-	list-style: none;
-	position: absolute;
-	margin-left: 60%;
-	margin-bottom: 20%;
-}
-.taille_logo{
-	width: 40px;
-	height: 40px;
-	margin-bottom: 10px;
-}
-
-#logo_restaurant_foot{
-	display: block;
-	width: 200px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50px;
 }
