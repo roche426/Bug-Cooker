@@ -14,16 +14,18 @@
 
 <body>
     <header>
-        <h1 class="sr-only">BugCookers</h1>
+        <h1 class="sr-only">Mentions Legales</h1>
         <?php include("header.php");?>
     </header>
 
     <section class="container">
         <div class="row">
-            <p ><span >Si vous utilisez nos Mentions Légales, vous vous engagez à laisser les liens </span><strong><span >Crédit sans en modifier ni les liens ni les ancres.</span></strong><span></span></span><br />
-            <span ><span >Par avance merci pour votre compréhension et le respect du travail effectué par toute l'équipe</span></span></p>
 
-            <h1>MENTIONS LEGALES :</h1>
+            <div class="titre-section">
+                <div class="left-line"></div>
+                <h2 class="text-center title-heading">Mentions légales</h2>
+                <div class="right-line"></div>
+            </div>
 
             <p><strong>1. Présentation du site :<br />
              </strong><br />
