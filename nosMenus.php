@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Menu</title>
+    <title>BugCookers</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
@@ -14,13 +13,19 @@
 </head>
 <body>
     <header>
+        <h1 class="sr-only">Notre carte</h1>
         <?php include("header.php");?>
     </header>
 
     <section>
 
         <div class="container">
-            <h2 class="titre-section text-center">Menu BUB COOKERS</h2>
+            <div class="title-div">
+                <div class="left-line"></div>
+                <h2 class="text-center title-heading">Menu BUG COOKERS</h2>
+                <div class="right-line"></div>
+            </div>
+
             <div class="row">
                 <div class="col-md-12">
                     <div class="panel-body">
@@ -78,7 +83,13 @@
 
 
         <div class="container">
-            <h2 class="titre-section text-center">Spécialités par restaurant BUG COOKERS</h2>
+            <div class="title-div">
+                <div class="left-line"></div>
+                <h2 class="text-center title-heading">Spécialités par restaurant BUG COOKERS</h2>
+                <div class="right-line"></div>
+            </div>
+
+
             <div class="panel-body">
                 <div class="row">
                     <div class="col-sm-6 col-md-3">

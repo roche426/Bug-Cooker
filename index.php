@@ -9,12 +9,12 @@
     <style> @import url('https://fonts.googleapis.com/css?family=Coiny'); </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
     <header>
+        <h1 class="sr-only">Bug Cookers</h1>
         <?php include("header.php");?>
     </header>
 
@@ -22,7 +22,11 @@
 
     <div class="container">
         <div class="text-center">
-            <h2>Bug Cookers : Gastronomie et Insectes dans la même assiette</h2>
+            <div class="title-div">
+                <div class="left-line"></div>
+                <h2 class="text-center title-heading">Bug Cookers : Gastronomie et Insectes dans la même assiette</h2>
+                <div class="right-line"></div>
+            </div>
         </div>
         <br>
             <div class="row blocConcept">
@@ -42,7 +46,11 @@
 
     <section class="container "><!-- why eating insects section-->
         <div class="text-center"><!--carousel slides-->
-            <h2>Manger des insectes : tous les bienfaits</h2>
+            <div class="title-div">
+                <div class="left-line"></div>
+                <h2 class="text-center title-heading">Manger des insectes : tous les bienfaits</h2>
+                <div class="right-line"></div>
+            </div>
         </div>
         <div id="myCarousel" class="carousel slide" data-interval="0">
             <ol class="carousel-indicators color-indicators">
@@ -99,17 +107,17 @@
 
       <div class="container img-responsive-mobile"><!--Mobile slide-->
           <div>
-              <h2 class="header-carousel">Bienfaits pour la santé</h2>
+              <h3 class="header-carousel">Bienfaits pour la santé</h3>
               <p class="p-carousel">C'est un apport nutritionnel exceptionnel très riche en proteine et pauvre en matière grasse.</p>
               <img class="imgPhotoInsectes img-responsive" src="Images/alimentation.jpg" alt="alimentation">
           </div>
           <div>
-              <h2 class="header-carousel">Aspect environnemental de l'élevage d'insectes</h2>
+              <h3 class="header-carousel">Aspect environnemental de l'élevage d'insectes</h3>
               <p class="p-carousel">Un élevage d’insectes pollue 10 à 100 fois moins qu’un élevage de viande, il est également plus économique en eau.</p>
               <img class="imgPhotoInsectes img-responsive" src="Images/impact-envir2.jpg" alt="...">
           </div>
           <div>
-              <h2 class="header-carousel">Excellent taux de conversion</h2>
+              <h3 class="header-carousel">Excellent taux de conversion</h3>
               <p class="p-carousel">La consommation d'insection peut etre une solution pour nourrir 9 milliards d’individus d’ici 2050, en effet le taux de conversion de la production d'insectes est excellente.</p>
               <img class="imgPhotoInsectes img-responsive" src="Images/taux-conver2.jpg" alt="...">
           </div>
@@ -122,7 +130,11 @@
     <br>
 
     <div class="container">
-            <h2 class="text-center">En savoir plus sur nous</h2>
+        <div class="title-div">
+            <div class="left-line"></div>
+            <h2 class="text-center title-heading">En savoir plus sur nous</h2>
+            <div class="right-line"></div>
+        </div>
         <br>
         <div class="row blocFondateur">
             <div class="col-sm-3 portraitFounder1">
@@ -161,5 +173,8 @@
     <footer class="banniere_top">
         <?php include("footer.php");?>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </html>

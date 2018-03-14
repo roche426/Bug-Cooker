@@ -1,7 +1,7 @@
 <!--Banniere top-->
 		<header>
 
-			<img src="../Images/logo_sans_fond_blanc.png" alt="logo_restaurant" id="logo_restaurant_head">
+			<img src="/Images/logo_sans_fond_blanc.png" alt="logo_restaurant" id="logo_restaurant_head">
 
 <!--Barre de navigation-->
 		<hr class="ligne_separation">
