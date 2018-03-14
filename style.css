@@ -1,23 +1,38 @@
-/*CSS banniere top*/
+/* All pages*/
+
 @font-face {
 	font-family: 'ABugsLife';
 	src: url(ABugsLife.ttf);
 }
-header{
-	background-color: white;
+
+body{
+	background-image: url('Images/fond3.jpg');
+	width: 100%;
+	height: 100%;
 }
-ul{
+/*CSS banniere top*/
+.nav{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+.nav_text{
+	font-size: 30px;
+	color:  white;
+	text-shadow: #000000 1px 1px;
+	font-family: 'Times';
+	margin-bottom: -25px;
+	width: 300px;
+	text-align: center;
+
 	margin-left: auto;
 	margin-right: auto;
 }
-.nav{
-	display: flex;
-	justify-content: space-around;
+.nav_text:hover{
+	color: #82C46C;
 }
-.nav_text{
-	font-size: 40px;
-	color: black;
-	font-family: 'ABugsLife';
+.nav_text:active{
+	text-decoration: underline;
 }
 #logo_restaurant_head{
 	display: flex;
@@ -25,37 +40,68 @@ ul{
 	min-width: 300px;;
 	margin: 0 auto 2% auto;
 }
+.ligne_separation{
+	 border: 0;
+	 height: 3px;
+	 background-image: linear-gradient(to right, rgba(130, 196, 108, 0), rgba(130, 196, 108, 0.75), rgba(130, 196, 108, 0));
+}
+/*Responsive header*/
+@media screen and (max-width: 1000px){
+	.nav{
+		flex-direction: column;
+		margin-bottom: 0px;
+	}
+	.nav_text{
+		text-align: center;
+		font-size: 30px;
+	}
+	#logo_restaurant_head{
+		margin-bottom: 0px;
+		margin-top: 25px;
+	}
+	.ligne_separation{
+		margin-bottom: 0;
+	}
+}
 
 /* CSS du Footer*/
 footer{
-	background-color: white;
-	margin: auto;
+	background-color: rgba(250,250,250,0.08);
+
 }
-.banniere_bottom{
+.dispo_footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+/*modification des liens pieds de page*/
+.text_foot{
+	color: white;
+	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+	font-family: Times;
+	font-size: 18px;
+}
+#logo_footer{
+	color: white;
+	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+	font-family: 'ABugsLife';
+	font-size: 30px;
+}
+.banniere_bottom1{
 	list-style: none;
-	position: absolute;
-	margin-left: 20%;
+	text-align: center;
+	padding: 0;
 }
-.banniere_top{
-	margin-top: 2%;
+
+/*Responsive footer*/
+@media screen and (max-width: 640px){
+.dispo_footer{
+		flex-direction: column;
+		justify-content: center;
 }
-.banniere_bottom_logo{
-	list-style: none;
-	position: absolute;
-	margin-left: 60%;
-	margin-bottom: 20%;
+footer{
+	margin-top: 20px;
 }
-.taille_logo{
-	width: 40px;
-	height: 40px;
-	margin-bottom: 10px;
-}
-#logo_restaurant_foot{
-	display: block;
-	width: 200px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50px;
 }
 
 
@@ -67,7 +113,6 @@ body {
 }
 p{
   text-align: justify;
-  font-size: 25px;
 
 
 }
@@ -86,6 +131,39 @@ h4 {
 	border-radius: 25px;
 	border : solid white;
 	margin-top: 120px;
+
+  color: white;
+}
+
+
+.titre-section{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-shadow: #000000 1px 1px;
+}
+.titre-section:before, .titre-section:after{
+	content:'';
+	width: 40%;
+	border-bottom:rgba(130, 196, 108,1) double 2px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.titre-section:before{
+	margin-left:-100%;
+	margin-right:15px;
+}
+.titre-section:after{
+	margin-right:-100%;
+	margin-left:15px;
+}
+
+.arrierePlanTitre{
+  margin-top: 40px;
+  border: none;
+  text-align: center;
+  background:none;
+
 }
 
 /*Founder Section*/
@@ -151,6 +229,7 @@ h4 {
 	color: yellow;
 }
 
+
 .more-info-button {
   display: block;
   position: absolute;
@@ -172,8 +251,54 @@ h4 {
 
 /* Buttun Link Menu */
 .boutonCarte{
-  padding: 10px;
-  font-size: 30px;
+	margin: 20px;
+  padding: 20px;
+  font-size: 40px;
+  	border-width: thick;
+  border-radius: 25px;
+  border-color: rgb(156, 129, 115);
+  background-color: rgb(156, 129, 115);
+}
+
+.boutonCarte:hover{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
+.boutonCarte:active{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
+.boutonCarte:active:hover{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
+.boutonCarte:active:focus{
+  	background-color: rgb(156, 129, 115);
+    border-color: rgb(156, 129, 115);
+	background: transparent;
+	border-width: thick;
+}
+
+
+@media only screen and (min-width: 720px){
+  .imgResponsiveMobile{
+    display: none;
+    text-align: center;
+  }
+  .imgConcept, .fondateur1{
+    display: block;
+    margin: auto;
+  }
+
 }
 
 /*Responsive*/
@@ -232,27 +357,18 @@ h4 {
 
 /* Menu page */
 
-.text-center{
-  text-align: center;
-}
+/* MENU */
 
 @media screen and (min-width: 992px) {
   .specialite {
-    height: 500px
+    height: 420px
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .specialiteLG1{
-    height: 410px
-  }
-  .specialiteLG2{
+  .specialite{
     height: 450px
   }
-}
-
-.bottom{
-  vertical-align: bottom;
 }
 
 .accordion {
@@ -280,83 +396,107 @@ h4 {
     overflow: hidden;
 }
 
+/* restaurant page */
 
-/* Our Resto page */
-
-.restaurantLocation{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
+#location-h2,
+#form-h2 {
+	background-color: rgb(62,62,62);
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
-#map{
-  margin: auto;;
+/* our restaurants section */
+#map {
+    margin: auto;
 }
 
-.embed-responsive-4by3 {
-  padding-bottom: 90%;
+.restaurant-location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.col-thumbnail{
-  padding: 0;
-}
-
-.idRestaurentThumbnail{
+.restaurant-thumbnail {
 	border: 1px none #ddd;
 	box-shadow: 0 0 0 rgba(0,0,0,.075);
-  background-color: rgba(0,0,0,.075);
-  margin: 2%;
+    background-color: rgba(0,0,0,.075);
+    margin: 2% ;
+	width: 250px;
 }
 
-.linkMail{
-  display: block;
-  margin-bottom: 10px;
+.restaurant-thumbnail > .thumbnail ,
+.restaurant-thumbnail > .caption ,
+.restaurant-thumbnail > h3,
+.restaurant-thumbnail > p {
+	color: rgb(215,215,215);
+	font-family: Times, sans-serif;
+	background-color: rgb(62,62,62);
 }
 
-.linkAdress{
-  min-height: 60px;
-  display: block;
+.col-thumbnail {
+    padding: 0;
 }
 
-.linkAdressDisable:link, .linkAdressDisable:visited, .linkAdressDisable:hover, .linkAdressDisable:active{
-  color: black;
-  cursor: pointer;
-  text-decoration: none;
-  pointer-events: none;
+.restaurant-thumbnail > .caption {
+	border-radius: 25px;
+	border : 1px solid rgb(255,255,255);
+}
+
+.restaurant-thumbnail h3 {
+	margin-top: 0;
+}
+
+.link-mail {
+    display: block;
+    margin-bottom: 10px;
+	color : blue;
+}
+
+.link-adress {
+    min-height: 70px;
+    display: block;
+}
+
+.link-adress-disable:link,
+.link-adress-disable:visited,
+.link-adress-disable:hover,
+.link-adress-disable:active {
+    color: rgb(215,215,215);
+    cursor: pointer;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.btn-color {
+	background-color: #AAFE79;
+	color: rgb(62,62,62);
 }
 
 @media screen and (max-width: 768px) {
-  .linkAdressDisable:link, .linkAdressDisable:hover{
-    color: blue;
-    cursor: default;
-    text-decoration: underline;
-    pointer-events: auto;
-  }
+    .link-adress-disable:link,
+	.link-adress-disable:hover {
+	    color: blue;
+	    cursor: default;
+	    text-decoration: underline;
+	    pointer-events: auto;
+    }
 
-  .linkAdressDisable:visited {
-    color: purple;
-    cursor: auto;
-  }
+    .link-adress-disable:visited {
+	    color: purple;
+	    cursor: auto;
+    }
 }
 
 /* contact section */
 
-#contactPresentation{
-  margin: 5%;
+label {
+	margin-top: 10px;
+	color: white;
 }
 
-#formH2, #locationH2{
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.formElement{
-  margin: 5%;
-}
-
-#sendButton{
-  display: block;
-  margin: auto;
+#send-button {
+    display: block;
+    margin: 10px auto;
 }
