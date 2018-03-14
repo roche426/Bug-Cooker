@@ -32,7 +32,7 @@
                         <div class="col-thumbnail"><!--La loupe-->
                             <div class="thumbnail text-center restaurant-thumbnail">
                                 <div class="caption">
-                                    <h3 id="Loupe">La Loupe</h3>
+                                    <h3 id="loupe">La Loupe</h3>
                                     <a href="https://www.google.fr/maps/place/Wild+Code+School+-+Formation+d%C3%A9veloppeur+web/@48.4738245,1.009727,17z/data=!3m1!4b1!4m5!3m4!1s0x47e3c1f7f7d69b13:0x44cf293e5870383a!8m2!3d48.473821!4d1.011921" class="link-adress link-adress-disable" target="_blank">18 Rue de la Gare<br/>28240 La Loupe</a>
                                     <p class="text-center">06 19 34 42 37</p>
                                     <a class="link-mail" href="laloupe@bugCookers.com">mail</a>
