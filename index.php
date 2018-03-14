@@ -20,9 +20,9 @@
 
     <br>
 
-    <div class="container">
+    <section class="container">
         <div class="text-center">
-            <h2>Bug Cookers : Gastronomie et Insectes dans la même assiette</h2>
+            <h2 class="titre-section">Bug Cookers : Gastronomie et Insectes dans la même assiette</h2>
         </div>
         <br>
             <div class="row blocConcept">
@@ -36,13 +36,13 @@
                     <img class="imgConcept img-responsive" src="Images/sushi_1.jpg" alt="X">
                 </div>
             </div>
-    </div>
+    </section>
 
     <br>
 
     <section class="container "><!-- why eating insects section-->
         <div class="text-center"><!--carousel slides-->
-            <h2>Manger des insectes : tous les bienfaits</h2>
+            <h2 class="titre-section">Manger des insectes : tous les bienfaits</h2>
         </div>
         <div id="myCarousel" class="carousel slide" data-interval="0">
             <ol class="carousel-indicators color-indicators">
@@ -83,8 +83,6 @@
                     <img class="img-responsive img-carousel" src="Images/taux-conver2.jpg" alt="slide conversion"/>
                     <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
                 </div>
-
-
             </div>
 
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -121,17 +119,18 @@
 
     <br>
 
-    <div class="container">
-            <h2 class="text-center">En savoir plus sur nous</h2>
+    <section class="container">
+            <h2 class="text-center titre-section">En savoir plus sur nous</h2>
         <br>
+
         <div class="row blocFondateur">
             <div class="col-sm-3 portraitFounder1">
                 <img class="imgFondateur img-responsive" src="Images/jo_Portrait.jpg" alt="...">
                 <h4>Jonathan PLANTEY <br> Co-fondateur</h4>
             </div>
             <div class="col-sm-9 col-md-9 describFounder1">
-                <p><em> "La cusine a toujours été pour moi une source d'inspiration. Lors d'un séjour en République d'Ouganda, j'ai découvert des mets succulents à base d'insectes. De retour en France, j'ai décidé de poursuivre cette alimentation, riche en fibre et protéine, et surtout très gourmande. En rencontrant Laurent, nous avons donc décidé d'adapter ces recettes à la cuisine française. "</p>
-            </em></div>
+                <p><em> "La cusine a toujours été pour moi une source d'inspiration. Lors d'un séjour en République d'Ouganda, j'ai découvert des mets succulents à base d'insectes. De retour en France, j'ai décidé de poursuivre cette alimentation, riche en fibre et protéine, et surtout très gourmande. En rencontrant Laurent, nous avons donc décidé d'adapter ces recettes à la cuisine française. "</em></p>
+            </div>
         </div>
         <br><hr class="founderSepation"><br>
         <div class="row">
@@ -140,22 +139,22 @@
                 <h4>Laurent AUBERTIN <br> Co-fondateur</h4>
             </div>
             <div class="col-sm-9 col-md-9 describFounder2">
-                <p><em> Ancien chef dans un restaurant gastronomique, j'ai découvert par hasard les plats à base d'insectes lors d'un repas, où par la même occasion, j'ai rencontré Jonathan qui les cuisinait. Ces goûts innovant m'ont donné envie de travailler ce produit afin de le rendre plus populaire. Pour partager ces saveurs, nous avons créé Bug Cookers, "Bug" pour l'étonnement et la joie provoqués chez nos amis après la dégustation de nos plats. </em></p>
+                <p><em> Ancien chef dans un restaurant gastronomique, j'ai découvert par hasard les plats à base d'insectes lors d'un repas, où par la même occasion, j'ai rencontré Jonathan qui les cuisinait. Ces goûts innovant m'ont donné envie de travailler ce produit afin de le rendre plus populaire. Suite à l'engoumment provoqué chez nos amis après la dégustation de nos plats, nous avons décidé de créer Bug Cookers </em></p>
             </div>
         </div>
-    </div>
+    </section>
 
     <br>
 
-    <div class="container">
+    <section class="container">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
-                <a href="LIEN.MENU.A.METTRE"
+                <a href="nosMenus.php#accordion" style="text-decoration:none">
                     <button type="button" class="btn btn-primary btn-block boutonCarte">Decouvrez Notre Carte </button>
                 </a>
             </div>
         </div>
-    </div>
+    </section>
     <br>
 
     <footer class="banniere_top">
