@@ -21,16 +21,16 @@
     <br>
 
     <div class="container">
-        <div class="panel panel-default titleSection">
-            <div class="panel-body">Bug Cookers : Gastronomie et Insectes dans la même assiette</div>
+        <div class="text-center">
+            <h2>Bug Cookers : Gastronomie et Insectes dans la même assiette</h2>
         </div>
-        <br
-            <div class="row blocConcept" >
+        <br>
+            <div class="row blocConcept">
                 <div class="col-md-6 col-md-offset-1">
                     <h4> Un festin exotique à base d'insectes</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p><br>
+                    <p>Bug Cookers vous offre des saveurs exotiques unique en France. Nos plats sont inspirés de recettes tradionnelles provenant du monde entier dans lesquelles nous ajoutons le rafinnement de la cuisine française. </p><br>
                     <h4> L'art de la cuisine française assiocié aux bienfaits des insectes</h4>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+                    <p>Nos savoureux plats ont une qualité nutritionnelle exceptionnelle. En effet, la valeur nutritive des insectes permet d'avoir une alimentation riche et variée. A déguster sans modération.  </p>
                 </div>
                 <div class="col-md-4 col-xs-12">
                     <img class="imgConcept img-responsive" src="Images/sushi_1.jpg" alt="X">
@@ -41,14 +41,16 @@
     <br>
 
     <section class="container "><!-- why eating insects section-->
-        <div class="panel panel-default titleSection"><!--carousel slides-->
-            <h2 class="panel-body titleSection">Manger des insectes : tous les bienfaits</h2>
+        <div class="text-center"><!--carousel slides-->
+            <h2>Manger des insectes : tous les bienfaits</h2>
         </div>
         <div id="myCarousel" class="carousel slide" data-interval="0">
             <ol class="carousel-indicators color-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
             </ol>
             <div class="carousel-inner size-carousel">
                 <div class="item active content-carousel">
@@ -69,6 +71,20 @@
                     <img class="img-responsive img-carousel" src="Images/taux-conver2.jpg" alt="slide conversion"/>
                     <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
                 </div>
+                <div class="item content-carousel">
+                    <h4 class="header-carousel">Des valeurs nutritives uniques </h4>
+                    <p class="p-carousel">Les insectes offrent une valeur énergétique exceptionnelle par rapport aux viandes, en plus d'être riche en minéraux.</p>
+                    <img class="img-responsive img-carousel" src="Images/valeurNutritive.png" alt="slide conversion"/>
+                    <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
+                </div>
+                <div class="item content-carousel">
+                    <h4 class="header-carousel">Excellent taux de conversion</h4>
+                    <p class="p-carousel">La consommation d'insection peut etre une solution pour nourrir 9 milliards d’individus d’ici 2050, en effet le taux de conversion de la production d'insectes est excellente.</p>
+                    <img class="img-responsive img-carousel" src="Images/taux-conver2.jpg" alt="slide conversion"/>
+                    <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
+                </div>
+
+
             </div>
 
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -106,25 +122,25 @@
     <br>
 
     <div class="container">
-            <h2 class="text-center titre-section">En savoir plus sur nous</h2>
+            <h2 class="text-center">En savoir plus sur nous</h2>
         <br>
         <div class="row blocFondateur">
-            <div class="col-md-2  portraitFounder1">
-                <img class="imgFondateur" src="Images/jo_Portrait.jpg" width="150px" alt="...">
-                <h4>Jonathan PLANTEY</h4>
+            <div class="col-sm-3 portraitFounder1">
+                <img class="imgFondateur img-responsive" src="Images/jo_Portrait.jpg" alt="...">
+                <h4>Jonathan PLANTEY <br> Co-fondateur</h4>
             </div>
-            <div class="col-md-8 describFondateur1">
-                <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            </div>
+            <div class="col-sm-9 col-md-9 describFounder1">
+                <p><em> "La cusine a toujours été pour moi une source d'inspiration. Lors d'un séjour en République d'Ouganda, j'ai découvert des mets succulents à base d'insectes. De retour en France, j'ai décidé de poursuivre cette alimentation, riche en fibre et protéine, et surtout très gourmande. En rencontrant Laurent, nous avons donc décidé d'adapter ces recettes à la cuisine française. "</p>
+            </em></div>
         </div>
         <br><hr class="founderSepation"><br>
         <div class="row">
-            <div class="col-md-2 portraitFondateur2">
-                <img class="imgFondateur" src="Images/laurent-Portrait.jpg" width="150px" alt="...">
-                <h4>Laurent AUBERTIN</h4>
+            <div class="col-sm-3 portraitFounder2">
+                <img class="imgFondateur" src="Images/laurent-Portrait.jpg" alt="...">
+                <h4>Laurent AUBERTIN <br> Co-fondateur</h4>
             </div>
-            <div class="col-md-8 describFondateur2">
-                <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <div class="col-sm-9 col-md-9 describFounder2">
+                <p><em> Ancien chef dans un restaurant gastronomique, j'ai découvert par hasard les plats à base d'insectes lors d'un repas, où par la même occasion, j'ai rencontré Jonathan qui les cuisinait. Ces goûts innovant m'ont donné envie de travailler ce produit afin de le rendre plus populaire. Pour partager ces saveurs, nous avons créé Bug Cookers, "Bug" pour l'étonnement et la joie provoqués chez nos amis après la dégustation de nos plats. </em></p>
             </div>
         </div>
     </div>
@@ -133,7 +149,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-xs-8 col-xs-offset-2">
+            <div class="col-sm-8 col-sm-offset-2">
                 <a href="LIEN.MENU.A.METTRE"
                     <button type="button" class="btn btn-primary btn-block boutonCarte">Decouvrez Notre Carte </button>
                 </a>
