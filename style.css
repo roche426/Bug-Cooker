@@ -6,9 +6,8 @@
 }
 
 body{
-	background-image: url('/Images/fond3.jpg');
-	width: 100%;
-	height: 100%;
+	background-image: url('Images/fond3_clair.png');
+	background-size: 100%;
 }
 
 p{
@@ -67,15 +66,16 @@ p{
 	margin-bottom: -25px;
 	width: 300px;
 	text-align: center;
-
 	margin-left: auto;
 	margin-right: auto;
 }
-.nav_text:hover{
-	color: #82C46C;
+.nav > li > a:hover{
+	color: rgba(130, 196, 108, 1);
 }
-.nav_text:active{
+.nav > li > a:active, .nav > li > a:focus{
 	text-decoration: underline;
+	background: transparent;
+	color: rgba(130, 196, 108, 1);
 }
 #logo_restaurant_head{
 	display: flex;
@@ -94,10 +94,10 @@ p{
 	.nav{
 		flex-direction: column;
 		margin-bottom: 0px;
-	}
+		}
 	.nav_text{
-		text-align: center;
 		font-size: 30px;
+		width: 250px;
 	}
 	#logo_restaurant_head{
 		margin-bottom: 0px;
@@ -125,11 +125,17 @@ footer{
 	font-family: Times;
 	font-size: 18px;
 }
+.text_foot:hover, .text_foot:active, .text_foot:focus{
+	color: rgba(130, 196, 108, 1);
+}
 #logo_footer{
 	color: white;
 	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 	font-family: 'ABugsLife';
 	font-size: 30px;
+}
+#lien_logo_footer:hover{
+	text-decoration: underline rgba(130, 196, 108, 1);
 }
 .banniere_bottom1{
 	list-style: none;
@@ -137,83 +143,56 @@ footer{
 	padding: 0;
 }
 
+
 /*Responsive footer*/
-@media screen and (max-width: 640px){
-.dispo_footer{
+@media screen and (max-width: 700px){
+	.dispo_footer{
 		flex-direction: column;
 		justify-content: center;
-}
-footer{
-	margin-top: 20px;
-}
+	}
+	footer{
+		margin-top: 20px;
+	}
 }
 
-p{
-  text-align: justify;
-  color: white;
-
-
+/*Concept Section*/
+.p-index{
+	color: white;
+	font-family: 'Linotype Univers';
+	font-size: 18px;
+	text-align: justify;
+	padding-top: 25px;
 }
+.imgConcept {
+	margin: auto;
+	border-radius: 25px;
+	border : solid white;
+	margin-top: 120px;
+    color: white;
+}
+
+/*Founder Section*/
 h4 {
   text-align: center;
   font-weight: bold;
   font-size: 21px;
   color: white;
-  font-family: 'Coiny', cursive;
+  font-family: 'Linotype Univers';
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+  margin-bottom: -10px;
 }
-
-
-/*Concept Section*/
-.imgConcept{
-	margin: auto;
-	border-radius: 25px;
-	border : solid white;
-	margin-top: 120px;
-}
-
-/*
-.titre-section{
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
-  text-shadow: #000000 1px 1px;
-}
-.titre-section:before, .titre-section:after{
-	content:'';
-	width: 40%;
-	border-bottom:rgba(130, 196, 108,1) double 2px;
-	display:inline-block;
-	vertical-align:middle;
-}
-.titre-section:before{
-	margin-left:-100%;
-	margin-right:15px;
-}
-.titre-section:after{
-	margin-right:-100%;
-	margin-left:15px;
-}
-
-.arrierePlanTitre{
-  margin-top: 40px;
-  border: none;
-  text-align: center;
-  background:none;
-*/
-}
-
-/*Founder Section*/
-
 .imgFondateur{
 	width: 180px;
 	height: 180px;
 	border-radius: 90px;
+	border: 1px solid white;
 }
 .founderSepation{
 	width: 50%;
 	margin-top: 0px;
 	border: solid;
 	color: #AAFE79;
+	border: 1px solid rgb(130, 196, 108);
 }
 
 /*Carousel Section*/
@@ -316,25 +295,27 @@ h4 {
   font-size: 40px;
   	border-width: thick;
   border-radius: 25px;
-  border-color: white;
-  background-color: rgb(15, 50, 5);
+  border-color: rgba(130, 196, 108, 1);
+  background-color: rgba(130, 196, 108, 1);
 }
 
 .boutonCarte:hover{
-    border-color: white;
-	background-color: rgb(25, 100, 10);
+  	background-color: rgb(130, 196, 108);
+    border-color: rgb(130, 196, 108);
+	background: transparent;
 	border-width: thick;
 }
 
 .boutonCarte:active{
-  	background-color: rgb(156, 129, 115);
+  	background-color: rgb(130, 196, 108);
+    border-color: rgb(130, 196, 108);
 	background: transparent;
 	border-width: thick;
-
 }
 
 .boutonCarte:active:hover{
-  	background-color: rgb(156, 129, 115);
+  	background-color: rgb(130, 196, 108);
+    border-color: rgb(130, 196, 108);
 	background: transparent;
 	border-width: thick;
 }
