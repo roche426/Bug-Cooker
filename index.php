@@ -41,6 +41,8 @@
                     <img class="imgConcept img-responsive" src="Images/sushi_1.jpg" alt="X">
                 </div>
             </div>
+        </div>
+
     </section>
 
     <br>
@@ -128,7 +130,7 @@
 
     <br>
 
-    <div class="container">
+    <section class="container">
         <div class="title-div">
             <div class="left-line"></div>
             <h2 class="text-center title-heading">En savoir plus sur nous</h2>
