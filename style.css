@@ -410,12 +410,22 @@ h4 {
     transition: 0.4s;
 }
 
+.p-nosMenus{
+	color: black;
+	font-family: 'Linotype Univers';
+	font-size: 18px;
+}
+
+.panel-title{
+	color: rgba(130, 196, 108);
+
+}
 active, #accordion:hover {
 
 }
 
 .specialite{
-	box-shadow: 3px 3px 15px white;
+	box-shadow: 15px 15px 15px black;
 
 }
 
