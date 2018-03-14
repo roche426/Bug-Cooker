@@ -6,7 +6,7 @@
 }
 
 body{
-	background-image: url('Images/fond3.jpg');
+	background-image: url('/Images/fond3.jpg');
 	width: 100%;
 	height: 100%;
 }
@@ -104,13 +104,6 @@ footer{
 }
 }
 
-
-/*Mise en forme générale page index.php*/
-body {
-	margin-top: 2%;
-	background: url("https://wallpapertag.com/wallpaper/middle/1/5/5/174157-dark-grey-background-1920x1200-for-iphone.jpg");
-  	color: white;
-}
 p{
   text-align: justify;
 
@@ -400,7 +393,6 @@ h4 {
 
 #location-h2,
 #form-h2 {
-	background-color: rgb(62,62,62);
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
@@ -430,7 +422,7 @@ h4 {
 .restaurant-thumbnail > .caption ,
 .restaurant-thumbnail > h3,
 .restaurant-thumbnail > p {
-	color: rgb(215,215,215);
+	color: white;
 	font-family: Times, sans-serif;
 	background-color: rgb(62,62,62);
 }
