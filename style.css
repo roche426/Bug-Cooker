@@ -53,6 +53,7 @@ body{
 	.nav_text{
 		text-align: center;
 		font-size: 30px;
+		width: 200px;
 	}
 	#logo_restaurant_head{
 		margin-bottom: 0px;
