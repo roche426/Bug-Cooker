@@ -140,9 +140,9 @@
                         <div class="thumbnail specialite">
                             <img src="Images/composition_3_resize.jpg" alt="composition">
                             <div class="caption">
-                                <h3>Spécialités <br> LILLE</h3>
+                                <h3 id="spe-lille">Spécialités <br> LILLE</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                <p class="text-center"><a href="nosRestaurant.php" class="btn btn-primary" role="button">LILLE</a></p>
+                                <p class="text-center"><a href="" class="btn btn-primary" role="button">LILLE</a></p>
                             </div>
                         </div>
                     </div>
