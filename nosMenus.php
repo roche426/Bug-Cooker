@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Menu</title>
+    <title>BugCookers</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
@@ -14,13 +13,19 @@
 </head>
 <body>
     <header>
+        <h1 class="sr-only">Notre carte</h1>
         <?php include("header.php");?>
     </header>
 
     <section>
 
         <div class="container">
-            <h2 class="titre-section text-center">Menu BUB COOKERS</h2>
+            <div class="title-div">
+                <div class="left-line"></div>
+                <h2 class="text-center title-heading">Menu BUG COOKERS</h2>
+                <div class="right-line"></div>
+            </div>
+
             <div class="row">
                 <div class="col-md-12">
                     <div class="panel-body">
@@ -78,115 +83,121 @@
 
 
         <div class="container">
-            <h2 class="titre-section text-center">Spécialités par restaurant BUG COOKERS</h2>
+            <div class="title-div">
+                <div class="left-line"></div>
+                <h2 class="text-center title-heading">Spécialités par restaurant BUG COOKERS</h2>
+                <div class="right-line"></div>
+            </div>
+
+
             <div class="panel-body">
                 <div class="row">
                     <div class="col-sm-6 col-md-3">
-                        <div class="thumbnail specialite">
+                        <div class="thumbnail specialite" id="spe-loupe">
                             <img src="Images/abeille_1_resize.jpg" alt="abeille">
-                            <div class="caption">
-                                <h3>Spécialités <br> LA LOUPE</h3>
+                            <div class="caption text-center">
+                                <h3>Spécialités<br>LA LOUPE</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                                <p class="text-center"><a href="nosRestaurant.php" class="btn btn-primary" role="button">LA LOUPE</a></p>
+                                <p class="text-center"><a href="/nosRestaurants.php#loupe" class="btn btn-color" role="button">LA LOUPE</a></p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-6 col-md-3">
-                        <div class="thumbnail specialite">
+                        <div class="thumbnail specialite" id="spe-orleans">
                             <img src="Images/frites_1_resize.jpg" alt="pates">
-                            <div class="caption">
-                                <h3>Spécialités <br> ORLÉANS</h3>
+                            <div class="caption text-center">
+                                <h3>Spécialités<br>ORLÉANS</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                                <p class="text-center"><a href="nosRestaurant.php" class="btn btn-primary" role="button">ORLÉANS</a></p>
+                                <p class="text-center"><a href="nosRestaurants.php#orleans" class="btn btn-color" role="button">ORLÉANS</a></p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-6 col-md-3">
-                        <div class="thumbnail specialite">
+                        <div class="thumbnail specialite" id="spe-bordeaux">
                             <img src="Images/brochette_1_resize.jpg" alt="brochettes">
-                            <div class="caption">
-                                <h3>Spécialités <br> BORDEAUX</h3>
+                            <div class="caption text-center">
+                                <h3>Spécialités<br>BORDEAUX</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                <p class="text-center"><a href="nosRestaurant.php" class="btn btn-primary" role="button">BORDEAUX</a></p>
+                                <p class="text-center"><a href="nosRestaurants.php#bordeaux" class="btn btn-color" role="button">BORDEAUX</a></p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-6 col-md-3">
-                        <div class="thumbnail specialite">
+                        <div class="thumbnail specialite" id="spe-lyon">
                             <img src="Images/qcorpion_2.jpg" alt="scorpions">
-                            <div class="caption">
-                                <h3>Spécialités <br> LYON</h3>
+                            <div class="caption text-center">
+                                <h3>Spécialités<br>LYON</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                <p class="text-center"><a href="nosRestaurant.php" class="btn btn-primary" role="button">LYON</a></p>
+                                <p class="text-center"><a href="nosRestaurants.php#lyon" class="btn btn-color" role="button">LYON</a></p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-6 col-md-3">
-                        <div class="thumbnail specialite">
+                        <div class="thumbnail specialite" id="spe-toulouse">
                             <img src="Images/composition_1_resize.jpg" alt="composition">
-                            <div class="caption">
-                                <h3>Spécialités <br> TOULOUSE</h3>
+                            <div class="caption text-center">
+                                <h3>Spécialités<br>TOULOUSE</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                <p class="text-center"><a href="nosRestaurant.php" class="btn btn-primary" role="button">TOULOUSE</a></p>
+                                <p class="text-center"><a href="nosRestaurants.php#toulouse" class="btn btn-color" role="button">TOULOUSE</a></p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-6 col-md-3">
-                        <div class="thumbnail specialite">
+                        <div class="thumbnail specialite" id="spe-lille">
                             <img src="Images/composition_3_resize.jpg" alt="composition">
-                            <div class="caption">
-                                <h3>Spécialités <br> LILLE</h3>
+                            <div class="caption text-center">
+                                <h3>Spécialités<br>LILLE</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                <p class="text-center"><a href="nosRestaurant.php" class="btn btn-primary" role="button">LILLE</a></p>
+                                <p class="text-center"><a href="nosRestaurants.php#lille" class="btn btn-color" role="button">LILLE</a></p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-6 col-md-3">
-                        <div class="thumbnail specialite">
+                        <div class="thumbnail specialite" id="spe-strasbourg">
                             <img src="Images/criquets_1_resize.jpg" alt="criquet">
-                            <div class="caption">
-                                <h3>Spécialités <br> STRASBOURG</h3>
+                            <div class="caption text-center">
+                                <h3>Spécialités<br>STRASBOURG</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                <p class="text-center"><a href="nosRestaurant.php" class="btn btn-primary" role="button">STRASBOURG</a></p>
+                                <p class="text-center"><a href="nosRestaurants.php#strasbourg" class="btn btn-color" role="button">STRASBOURG</a></p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-6 col-md-3">
-                        <div class="thumbnail specialite">
+                        <div class="thumbnail specialite"  id="spe-paris">
                             <img src="Images/scorpion_3_resize.jpg" alt="scorpions">
-                            <div class="caption">
-                                <h3>Spécialités <br> PARIS</h3>
+                            <div class="caption text-center">
+                                <h3>Spécialités<br>PARIS</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                <p class="text-center"><a href="nosRestaurant.php" class="btn btn-primary" role="button">PARIS</a></p>
+                                <p class="text-center"><a href="nosRestaurants.php#paris" class="btn btn-color" role="button">PARIS</a></p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-6 col-md-3 col-md-offset-3">
-                        <div class="thumbnail specialite">
+                        <div class="thumbnail specialite" id="spe-reims">
                             <img src="Images/scorpion_1_resize.jpg" alt="scorpions">
-                            <div class="caption">
-                                <h3>Spécialités <br> REIMS</h3>
+                            <div class="caption text-center">
+                                <h3>Spécialités<br>REIMS</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                <p class="text-center"><a href="nosRestaurant.php" class="btn btn-primary" role="button">REIMS</a></p>
+                                <p class="text-center"><a href="nosRestaurants.php#reims" class="btn btn-color" role="button">REIMS</a></p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-6 col-md-3">
-                        <div class="thumbnail specialite">
+                        <div class="thumbnail specialite" id="spe-biarritz">
                             <img src="Images/sushi_1.jpg" alt="sushi">
-                            <div class="caption">
-                                <h3>Spécialités <br> BIARRITZ</h3>
+                            <div class="caption text-center">
+                                <h3>Spécialités<br>BIARRITZ</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                <p class="text-center"><a href="nosRestaurant.php" class="btn btn-primary" role="button">BIARRITZ</a></p>
+                                <p class="text-center"><a href="nosRestaurants.php#biarritz" class="btn btn-color" role="button">BIARRITZ</a></p>
                             </div>
                         </div>
                     </div>

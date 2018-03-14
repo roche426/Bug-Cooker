@@ -9,20 +9,24 @@
     <style> @import url('https://fonts.googleapis.com/css?family=Coiny'); </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
     <header>
+        <h1 class="sr-only">Bug Cookers</h1>
         <?php include("header.php");?>
     </header>
 
     <br>
 
-
-        <div class="container-fluid">
-            <h2 class="titre-section">Bug Cookers : Gastronomie et Insectes dans la même assiette</h2>
+    <section class="container">
+        <div class="text-center">
+            <div class="title-div">
+                <div class="left-line"></div>
+                <h2 class="text-center title-heading">Bug Cookers : Gastronomie et Insectes dans la même assiette</h2>
+                <div class="right-line"></div>
+            </div>
         </div>
         <br>
         <div class="container">
@@ -37,13 +41,17 @@
                     <img class="imgConcept img-responsive" src="Images/sushi_1.jpg" alt="X">
                 </div>
             </div>
-    </div>
+    </section>
 
     <br>
 
     <section class="container "><!-- why eating insects section-->
         <div class="text-center"><!--carousel slides-->
-            <h2 class="titre-section">Manger des insectes : tous les bienfaits</h2 class="titre-section">
+            <div class="title-div">
+                <div class="left-line"></div>
+                <h2 class="text-center title-heading">Manger des insectes : tous les bienfaits</h2>
+                <div class="right-line"></div>
+            </div>
         </div>
         <div id="myCarousel" class="carousel slide" data-interval="0">
             <ol class="carousel-indicators color-indicators">
@@ -84,8 +92,6 @@
                     <img class="img-responsive img-carousel" src="Images/taux-conver2.jpg" alt="slide conversion"/>
                     <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
                 </div>
-
-
             </div>
 
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -100,17 +106,17 @@
 
       <div class="container img-responsive-mobile"><!--Mobile slide-->
           <div>
-              <h2 class="titre-section" class="header-carousel">Bienfaits pour la santé</h2 class="titre-section">
+              <h3 class="header-carousel">Bienfaits pour la santé</h3>
               <p class="p-carousel p-index">C'est un apport nutritionnel exceptionnel très riche en proteine et pauvre en matière grasse.</p>
               <img class="imgPhotoInsectes img-responsive" src="Images/alimentation.jpg" alt="alimentation">
           </div>
           <div>
-              <h2 class="titre-section" class="header-carousel">Aspect environnemental de l'élevage d'insectes</h2 class="titre-section">
+              <h3 class="header-carousel">Aspect environnemental de l'élevage d'insectes</h3>
               <p class="p-carousel p-index">Un élevage d’insectes pollue 10 à 100 fois moins qu’un élevage de viande, il est également plus économique en eau.</p>
               <img class="imgPhotoInsectes img-responsive" src="Images/impact-envir2.jpg" alt="...">
           </div>
           <div>
-              <h2 class="titre-section" class="header-carousel">Excellent taux de conversion</h2 class="titre-section">
+              <h3 class="header-carousel">Excellent taux de conversion</h3>
               <p class="p-carousel p-index">La consommation d'insection peut etre une solution pour nourrir 9 milliards d’individus d’ici 2050, en effet le taux de conversion de la production d'insectes est excellente.</p>
               <img class="imgPhotoInsectes img-responsive" src="Images/taux-conver2.jpg" alt="...">
           </div>
@@ -123,7 +129,11 @@
     <br>
 
     <div class="container">
-            <h2 class="titre-section text-center">En savoir plus sur nous</h2 class="titre-section">
+        <div class="title-div">
+            <div class="left-line"></div>
+            <h2 class="text-center title-heading">En savoir plus sur nous</h2>
+            <div class="right-line"></div>
+        </div>
         <br>
         <div class="row blocFondateur">
             <div class="col-sm-3 portraitFounder1">
@@ -144,23 +154,26 @@
                 <p class="p-index">Ancien chef dans un restaurant gastronomique, j'ai découvert par hasard les plats à base d'insectes lors d'un repas, où par la même occasion, j'ai rencontré Jonathan qui les cuisinait. Ces goûts innovant m'ont donné envie de travailler ce produit afin de le rendre plus populaire. Pour partager ces saveurs, nous avons créé Bug Cookers, "Bug" pour l'étonnement et la joie provoqués chez nos amis après la dégustation de nos plats.</p>
             </div>
         </div>
-    </div>
+    </section>
 
     <br>
 
-    <div class="container">
+    <section class="container">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
-                <a href="LIEN.MENU.A.METTRE"
+                <a href="nosMenus.php#accordion" style="text-decoration:none">
                     <button type="button" class="btn btn-primary btn-block boutonCarte">Decouvrez Notre Carte </button>
                 </a>
             </div>
         </div>
-    </div>
+    </section>
     <br>
 
     <footer class="banniere_top">
         <?php include("footer.php");?>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </html>
