@@ -2,16 +2,16 @@
 
 @font-face {
 	font-family: 'ABugsLife';
-	src: url(ABugsLife.ttf);
+	src: url(font/ABugsLife.ttf) format("ttf");
+}
+@@font-face {
+	font-family: 'APompadour'
+	src: url(font/APompadourBoldSample.ttf) format(ttf), url(font/APompadourTextSample.otf) format(otf);
 }
 
 body{
 	background-image: url('Images/fond3_clair.png');
 	background-size: 100%;
-}
-
-p{
-	color: white;
 }
 
 .title-div {
@@ -23,9 +23,10 @@ p{
 .title-heading {
   font-size: 30px;
   font-weight: bold;
-  color: white;
+  color: rgb(130, 196, 108);
   padding: 15px;
-  text-shadow: #000000 1px 1px;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+  font-family: 'APompadour'
 }
 
 .left-line,
@@ -50,9 +51,9 @@ p{
 }
 .nav_text{
 	font-size: 30px;
-	color:  white;
+	color: white;
 	text-shadow: #000000 1px 1px;
-	font-family: 'Times';
+	font-family: 'APompadour';
 	margin-bottom: -25px;
 	width: 300px;
 	text-align: center;
@@ -61,10 +62,15 @@ p{
 }
 .nav > li > a:hover{
 	color: rgba(130, 196, 108, 1);
+	background: none;
 }
 .nav > li > a:active, .nav > li > a:focus{
 	text-decoration: underline;
 	background: transparent;
+	color: rgba(130, 196, 108, 1);
+}
+.en-cours{
+	text-decoration: underline;
 	color: rgba(130, 196, 108, 1);
 }
 #logo_restaurant_head{
@@ -87,7 +93,7 @@ p{
 		}
 	.nav_text{
 		font-size: 30px;
-		width: 250px;
+		width: 300px;
 	}
 	#logo_restaurant_head{
 		margin-bottom: 0px;
@@ -148,7 +154,7 @@ footer{
 /*Concept Section*/
 .p-index{
 	color: white;
-	font-family: 'Linotype Univers';
+	font-family: 'APompadour';
 	font-size: 24px;
 	text-align: justify;
 	padding-top: 5px;
@@ -167,7 +173,6 @@ footer{
 	font-size: 28px;
 }
 span{
-	color:rgba(130, 196, 108, 1);
 	font-size: 35px;
 }
 
@@ -177,7 +182,7 @@ h4 {
   font-weight: bold;
   font-size: 21px;
   color: white;
-  font-family: 'Linotype Univers';
+  font-family: 'APompadour';
   text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
   margin-bottom: -10px;
 }
@@ -397,7 +402,7 @@ h4 {
 
 .p-nosMenus{
 	color: black;
-	font-family: 'Linotype Univers';
+	font-family: 'APompadour';
 	font-size: 18px;
 }
 

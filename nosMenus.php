@@ -10,6 +10,7 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
+    <?php $nav_en_cours = 'nosmenus'; ?>
 </head>
 <body>
     <header>
@@ -36,10 +37,10 @@
                                     </div>
                                     <div id="collapseOne" class="panel-collapse collapse in">
                                         <div class="panel-body">
-                                            <p class="text-center p-nosMenus">Lorem ipsum dolor sit amet - 12€<br>
-                                                Consectetur adipisicing elit - 15€<br>
-                                                Sed do eiusmod tempor incididunt - 14€<br>
-                                                Ut labore et dolore - 22€</p>
+                                            <p class="text-center p-nosMenus">Salade de criquet sauce citronnée au miel et au sésame - 12€<br>
+                                                Velouté, carotte et amandes aux vers croustillants - 15€<br>
+                                                Tartelette aux moucherons et larves Sago au lard de la forêt noires, praliné amande - 14€<br>
+                                                Quenelle de ténébrion Tenebrio molitor à la lyonnaise - 22€</p>
                                         </div>
                                     </div>
                                 </div>
@@ -49,10 +50,10 @@
                                     </div>
                                     <div id="collapseTwo" class="panel-collapse collapse">
                                         <div class="panel-body">
-                                            <p class="text-center p-nosMenus">Laboris nisi ut aliquip - 20€<br>
-                                                Ut enim ad minim veniam - 25€<br>
-                                                Quis nostrud exercitation ullamco - 24€<br>
-                                                Ex ea commodo consequat - 32€</p>
+                                            <p class="text-center p-nosMenus">Gratin Dauphinois aux termites et cafards - 20€<br>
+                                                Tagliatelles aux vers Mopanes - 25€<br>
+                                                Mille-feuille de crêpes aux scorpions - 24€<br>
+                                                Filet mignon farci aux tarantules, sauce au poivre et au whisky - 32€</p>
                                         </div>
                                     </div>
                                 </div>
@@ -62,10 +63,10 @@
                                     </div>
                                     <div id="collapseThree" class="panel-collapse collapse">
                                         <div class="panel-body">
-                                            <p class="text-center p-nosMenus">Duis aute irure dolor in reprehenderit - 15€<br>
-                                                In voluptate velit esse - 10€<br>
-                                                Cillum dolore eu fugiat - 14€<br>
-                                                Nulla pariatur - 18€</p>
+                                            <p class="text-center p-nosMenus">Tarte soufflée au criquet Caelifera, sorbet au fromage blanc, gingembre confit - 15€<br>
+                                                Macarons Larves de Witchetty-basilic - 10€<br>
+                                                Verrines de scarabée & tuiles aux amandes - 14€<br>
+                                                Clafoutis aux libellule et miel - 18€</p>
                                         </div>
                                     </div>
                                 </div>

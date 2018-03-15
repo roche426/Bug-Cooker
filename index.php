@@ -9,7 +9,7 @@
     <style> @import url('https://fonts.googleapis.com/css?family=Coiny'); </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-
+    <?php $nav_en_cours = 'index'; ?>
 </head>
 
 <body>
@@ -36,7 +36,7 @@
                     <p class="p-index">Nos savoureux plats ont mde qualité nutritionnelle exceptionnelle. En effet, la valeur nutritive des insectes permet d'avoir une alimentation riche et variée. A déguster sans modération.  </p>
                 </div>
                 <div class="col-md-2 col-xs-10 col-xs-offset-1 ">
-                    <img class="img-concept" src="https://www.bocuse.fr/media/cache/jadro_resize/rc/bYIMFQax1520432576/jadroRoot/medias/588095b11c172/frd0341.jpg" height="390" alt="X"><br>
+                    <img class="img-concept" src="Images/img-restaurant.jpg" height="390" alt="X"><br>
                 </div>
             </div>
     </section>
@@ -81,14 +81,14 @@
                 <div class="item content-carousel">
                     <h4 class="header-carousel">Des valeurs nutritives uniques </h4>
                     <p class="p-carousel p-index">Les insectes offrent une valeur énergétique exceptionnelle par rapport aux viandes, en plus d'être riche en minéraux.</p>
-                    <img class="img-responsive img-carousel" src="Images/valeurNutritive.png" alt="slide conversion"/>
+                    <img class="img-responsive img-carousel" src="Images/valeurNutritive.png" width="750" alt="slide conversion"/>
                     <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
                 </div>
                 <div class="item content-carousel">
-                    <h4 class="header-carousel">Excellent taux de conversion</h4>
-                    <p class="p-carousel p-index">La consommation d'insection peut etre une solution pour nourrir 9 milliards d’individus d’ici 2050</p>
-                    <img class="img-responsive img-carousel" src="Images/taux-conver2.jpg" alt="slide conversion"/>
-                    <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
+                    <h4 class="header-carousel">Et biensur, c'est délicieux!</h4>
+                    <p class="p-carousel p-index">Les insectes apportent un goût innovant à vos papilles, pour de nouveaux plaisirs.</p>
+                    <img class="img-responsive img-carousel" src="Images/delicieux.jpg" width="650" alt="slide conversion"/>
+                    <a class="btn more-info-button" href="http://www.insectescomestibles.fr/" role="button" target="_blank">En savoir plus</a>
                 </div>
             </div>
 
@@ -162,7 +162,7 @@
         <div class="row">
             <div class="col-xs-8 col-xs-offset-2">
                 <a href="nosMenus.php#accordion" style="text-decoration:none">
-                    <button type="button" class="btn-primary btn-block btn-link-menu">Decouvrez Notre Carte </button>
+                    <button type="button" class="btn-primary btn-block btn-link-menu">Decouvrez notre carte </button>
                 </a>
             </div>
         </div>
