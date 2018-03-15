@@ -159,16 +159,26 @@ footer{
 .p-index{
 	color: white;
 	font-family: 'Linotype Univers';
-	font-size: 18px;
+	font-size: 24px;
 	text-align: justify;
-	padding-top: 25px;
+	padding-top: 5px;
 }
-.imgConcept {
+.text-founder{
+	font-style: italic;
+}
+.img-concept {
+	display: block;
 	margin: auto;
 	border-radius: 25px;
 	border : solid white;
-	margin-top: 120px;
     color: white;
+}
+.subtitle-index{
+	font-size: 28px;
+}
+span{
+	color:rgba(130, 196, 108, 1);
+	font-size: 35px;
 }
 
 /*Founder Section*/
@@ -181,13 +191,13 @@ h4 {
   text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
   margin-bottom: -10px;
 }
-.imgFondateur{
+.img-founder{
 	width: 180px;
 	height: 180px;
 	border-radius: 90px;
 	border: 1px solid white;
 }
-.founderSepation{
+.founder-separation{
 	width: 50%;
 	margin-top: 0px;
 	border: solid;
@@ -220,7 +230,7 @@ h4 {
 }
 
 .size-carousel {
-  height: 550px;
+  height: 570px;
   border-radius: 50px;
   background-color: rgba(9, 30, 5,0.4)
   }
@@ -251,11 +261,9 @@ h4 {
   font-size: 30px;
   padding-top: 2%;
   font-weight: bold;
-  padding-bottom: 1%;
 }
-
 .p-carousel {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .glyphicon-chevron-right,
@@ -289,55 +297,34 @@ h4 {
 }
 
 /* Buttun Link Menu */
-.boutonCarte{
-	margin: 20px;
-  padding: 20px;
-  font-size: 40px;
-  	border-width: thick;
+.btn-link-menu{
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
   border-radius: 25px;
-  border-color: rgba(130, 196, 108, 1);
-  background-color: rgba(130, 196, 108, 1);
+  background-color: darkgreen;
+  border-color: white;
 }
 
-.boutonCarte:hover{
+.btn-link-menu:hover{
   	background-color: rgb(130, 196, 108);
-    border-color: rgb(130, 196, 108);
-	background: transparent;
-	border-width: thick;
+	border-color: white;
 }
-
-.boutonCarte:active{
-  	background-color: rgb(130, 196, 108);
-    border-color: rgb(130, 196, 108);
-	background: transparent;
-	border-width: thick;
-}
-
-.boutonCarte:active:hover{
-  	background-color: rgb(130, 196, 108);
-    border-color: rgb(130, 196, 108);
-	background: transparent;
-	border-width: thick;
-}
-.boutonCarte:active:focus{
-  	background-color: rgb(156, 129, 115);
-    border-color: rgb(156, 129, 115);
-	background: transparent;
-	border-width: thick;
-}
-
 
 /*Responsive*/
 @media only screen and (min-width: 768px){
   .img-responsive-mobile {
   	display: none;
   }
-  .portraitFounder2{
+  .founder-portrait2{
   	float: right;
   }
-  .imgFondateur{
+  .img-founder{
 	  display: block;
 	  margin: auto;
+  }
+  .img-concept{
+	margin-top:70px;
   }
 
 }
@@ -346,26 +333,28 @@ h4 {
 	#myCarousel{
 		 display: none;
 	}
-    .blocConcept {
+    .concept-block {
         display: flex;
         flex-wrap: wrap-reverse;
     }
-    .imgPhotoInsectes,
-	.imgConcept,
-	.imgFondateur {
+	.img-concept{
+		height: 300px;
+	}
+    .img-photo-insects,
+	.img-founder {
         display: block;
         margin: 2% auto;
     }
-	.boutonCarte{
+	.img-photo-insects{
+		border-radius: 10px;
+		border: solid rgb(130, 196, 108);
+
+	}
+	.btn-link-menu{
 	  font-size: 20px;
+	  text-align: center;
 	}
-	.header-carousel,
-	.p-carousel {
-	    text-align: center;
-	    width: 90%;
-	    margin: auto;
-	    opacity: 1;
-	}
+
 	.img-responsive-mobile {
 		display: block;
 		text-align: center;
