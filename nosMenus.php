@@ -31,7 +31,7 @@
                     <div class="panel-body">
                         <div class="bs-example">
                             <div class="panel-group" id="accordion">
-                                <div class="panel panel-default">
+                                <div class="panel -default">
                                     <div class="panel-heading" data-toggle="collapse" href="#collapseOne">
                                         <h4 class="panel-title">Entrées</h4>
                                     </div>

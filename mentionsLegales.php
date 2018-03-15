@@ -21,7 +21,7 @@
     <section class="container">
         <div class="row">
 
-            <div class="titre-section">
+            <div class="title-div">
                 <div class="left-line"></div>
                 <h2 class="text-center title-heading">Mentions légales</h2>
                 <div class="right-line"></div>
