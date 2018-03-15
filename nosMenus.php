@@ -32,7 +32,7 @@
                         <div class="bs-example">
                             <div class="panel-group" id="accordion">
                                 <div class="panel panel-default">
-                                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    <div class="panel-heading" data-toggle="collapse" href="#collapseOne">
                                         <h4 class="panel-title">Entrées</h4>
                                     </div>
                                     <div id="collapseOne" class="panel-collapse collapse in">
@@ -45,7 +45,7 @@
                                     </div>
                                 </div>
                                 <div class="panel panel-default">
-                                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                    <div class="panel-heading" data-toggle="collapse" href="#collapseTwo">
                                         <h4 class="panel-title">Plats</h4>
                                     </div>
                                     <div id="collapseTwo" class="panel-collapse collapse">
@@ -58,7 +58,7 @@
                                     </div>
                                 </div>
                                 <div class="panel panel-default">
-                                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                    <div class="panel-heading" data-toggle="collapse" href="#collapseThree">
                                         <h4 class="panel-title">Desserts</h4>
                                     </div>
                                     <div id="collapseThree" class="panel-collapse collapse">
