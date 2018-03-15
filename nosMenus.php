@@ -26,14 +26,13 @@
                 <h2 class="text-center title-heading">Menu BUG COOKERS</h2>
                 <div class="right-line"></div>
             </div>
-
             <div class="row">
                 <div class="col-md-12">
                     <div class="panel-body">
                         <div class="bs-example">
                             <div class="panel-group" id="accordion">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                <div class="panel menu-panel">
+                                    <div class="panel-heading menu-panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                                         <h5 class="panel-title">Entrées</h5>
                                     </div>
                                     <div id="collapseOne" class="panel-collapse collapse in">
@@ -76,12 +75,7 @@
                     </div>
                 </div>
             </div>
-
-
-          </div>
-
         </div>
-
 
         <div class="container">
             <div class="title-div">
@@ -89,8 +83,6 @@
                 <h2 class="text-center title-heading">Spécialités par restaurant BUG COOKERS</h2>
                 <div class="right-line"></div>
             </div>
-
-
             <div class="panel-body">
                 <div class="row">
                     <div class="col-sm-6 col-md-3">
