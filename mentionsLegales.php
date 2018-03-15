@@ -9,8 +9,7 @@
     <style> @import url('https://fonts.googleapis.com/css?family=Coiny'); </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <?php $nav_en_cours = 'mentionslegales'; ?>
-</head>
+    <?php $nav_en_cours = 'mentionslegales'; ?></head>
 
 <body>
     <header>

@@ -376,13 +376,13 @@ h4 {
 
 @media screen and (min-width: 992px) {
   .specialite {
-    height: 420px
+    height: 380px
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .specialite{
-    height: 450px
+    height: 410px
   }
 }
 
@@ -398,11 +398,12 @@ h4 {
 }
 
 .menu-panel{
-	background-color: red; /* fond fixé par panel-default il peut dc etre supprimé*/
+	background-image: url('Images/papyrus_1.jpg');
+	background-size: 100%;
 }
 
 .menu-panel-heading{
-	background-color: blue; /* fond imposé via panel-default il peut dc etre supprimé*/
+	background-color: rgba(236,236,236,0.6);
 }
 
 .p-nosMenus{
@@ -412,7 +413,7 @@ h4 {
 }
 
 .panel-title{
-	color: rgba(130, 196, 108);
+	font-size: 22px;
 
 }
 active, #accordion:hover {
@@ -421,6 +422,8 @@ active, #accordion:hover {
 
 .specialite {
 	box-shadow: 15px 15px 15px black;
+	background-color: rgba(255,255,255,0.9);
+
 }
 
 

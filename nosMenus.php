@@ -32,7 +32,7 @@
                         <div class="bs-example">
                             <div class="panel-group" id="accordion">
                                 <div class="panel menu-panel">
-                                    <div class="panel-heading menu-panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    <div class="panel-heading menu-panel-heading" data-toggle="collapse" href="#collapseOne">
                                         <h5 class="panel-title">Entrées</h5>
                                     </div>
                                     <div id="collapseOne" class="panel-collapse collapse in">
@@ -44,8 +44,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                <div class="panel menu-panel">
+                                    <div class="panel-heading menu-panel-heading" data-toggle="collapse" href="#collapseTwo">
                                         <h5 class="panel-title">Plats</h5>
                                     </div>
                                     <div id="collapseTwo" class="panel-collapse collapse">
@@ -57,8 +57,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                <div class="panel menu-panel">
+                                    <div class="panel-heading menu-panel-heading" data-toggle="collapse" href="#collapseThree">
                                         <h5 class="panel-title">Desserts</h5>
                                     </div>
                                     <div id="collapseThree" class="panel-collapse collapse">
@@ -90,7 +90,7 @@
                             <img src="Images/abeille_1_resize.jpg" alt="abeille">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>LA LOUPE</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                <p>Tartines de gueppes sur son lit d'oeufs d'esturgeons</p>
                                 <p class="text-center"><a href="/nosRestaurants.php#loupe" class="btn btn-color" role="button">LA LOUPE</a></p>
                             </div>
                         </div>
@@ -101,7 +101,7 @@
                             <img src="Images/frites_1_resize.jpg" alt="pates">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>ORLÉANS</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <p>Vers de farine servi avec des strozzapreti aux légumes, sauce guacamole</p>
                                 <p class="text-center"><a href="nosRestaurants.php#orleans" class="btn btn-color" role="button">ORLÉANS</a></p>
                             </div>
                         </div>
@@ -112,7 +112,7 @@
                             <img src="Images/brochette_1_resize.jpg" alt="brochettes">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>BORDEAUX</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                <p>Brochettes de criquets et poivrons</p>
                                 <p class="text-center"><a href="nosRestaurants.php#bordeaux" class="btn btn-color" role="button">BORDEAUX</a></p>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
                             <img src="Images/qcorpion_2.jpg" alt="scorpions">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>LYON</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <p>Brochettes de scorpions accompagnées d'une salade de cafards</p>
                                 <p class="text-center"><a href="nosRestaurants.php#lyon" class="btn btn-color" role="button">LYON</a></p>
                             </div>
                         </div>
@@ -134,7 +134,7 @@
                             <img src="Images/composition_1_resize.jpg" alt="composition">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>TOULOUSE</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <p>Méli mélo de vers, cafards et larves à partager entre amis</p>
                                 <p class="text-center"><a href="nosRestaurants.php#toulouse" class="btn btn-color" role="button">TOULOUSE</a></p>
                             </div>
                         </div>
@@ -145,7 +145,7 @@
                             <img src="Images/composition_3_resize.jpg" alt="composition">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>LILLE</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <p>Barquette de cafards</p>
                                 <p class="text-center"><a href="nosRestaurants.php#lille" class="btn btn-color" role="button">LILLE</a></p>
                             </div>
                         </div>
@@ -156,7 +156,7 @@
                             <img src="Images/criquets_1_resize.jpg" alt="criquet">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>STRASBOURG</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <p>Grillons grillés</p>
                                 <p class="text-center"><a href="nosRestaurants.php#strasbourg" class="btn btn-color" role="button">STRASBOURG</a></p>
                             </div>
                         </div>
@@ -167,7 +167,7 @@
                             <img src="Images/scorpion_3_resize.jpg" alt="scorpions">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>PARIS</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <p>Brochettes de scorpions et larves</p>
                                 <p class="text-center"><a href="nosRestaurants.php#paris" class="btn btn-color" role="button">PARIS</a></p>
                             </div>
                         </div>
@@ -178,7 +178,7 @@
                             <img src="Images/scorpion_1_resize.jpg" alt="scorpions">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>REIMS</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <p>Salade fraicheur aux scorpions géants grillés</p>
                                 <p class="text-center"><a href="nosRestaurants.php#reims" class="btn btn-color" role="button">REIMS</a></p>
                             </div>
                         </div>
@@ -189,7 +189,7 @@
                             <img src="Images/sushi_1.jpg" alt="sushi">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>BIARRITZ</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <p>Assortiments de sushis larves et cafards</p>
                                 <p class="text-center"><a href="nosRestaurants.php#biarritz" class="btn btn-color" role="button">BIARRITZ</a></p>
                             </div>
                         </div>
