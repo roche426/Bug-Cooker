@@ -7,7 +7,7 @@
 		<li class="text_foot"> Email : Bug.Cookers@insect.com</a></li>
 	</ul>
 	<ul class="banniere_bottom1">
-		<li><a href="nosRestaurants.php" class="text_foot">Contact</a></li>
-		<li><a href="#" class="text_foot"> Mentions légales</a></li>
+		<li><a href="nosRestaurants.php#contact-section" class="text_foot">Contact</a></li>
+		<li><a href="mentionsLegales.php" class="text_foot"> Mentions légales</a></li>
 	</ul>
 </div>
