@@ -9,8 +9,7 @@
     <style> @import url('https://fonts.googleapis.com/css?family=Coiny'); </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-
-</head>
+    <?php $nav_en_cours = 'mentionslegales'; ?></head>
 
 <body>
     <header>
@@ -18,7 +17,7 @@
         <?php include("header.php") ?>
     </header>
 
-    <section class="container">
+    <section class="container mentions-legales">
         <div class="row">
 
             <div class="title-div">

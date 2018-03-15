@@ -13,7 +13,7 @@
     </head>
 
     <body>
-        <header>
+        <header id="#top">
             <?php include("header.php");?>
         </header>
 
@@ -169,15 +169,19 @@
                     </div>
                 </div>
             </div>
+            <div id="scrollUp">
+                <a href="#top"><img src="Images/to_top.png"/></a>
+            </div>
         </section>
 
         <footer class="banniere_top">
             <?php include("footer.php");?>
         </footer>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVey409tCuTrEvxBikHt4qso7jbpotsh4&callback=initMap"></script>
-        <script src="script_map.js"></script>
+        <script src="script.js"></script>
 
     </body>
 
