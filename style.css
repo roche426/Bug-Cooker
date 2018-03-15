@@ -4,9 +4,12 @@
 	font-family: 'ABugsLife';
 	src: url(font/ABugsLife.ttf) format("ttf");
 }
-@@font-face {
-	font-family: 'APompadour'
-	src: url(font/APompadourBoldSample.ttf) format(ttf), url(font/APompadourTextSample.otf) format(otf);
+@font-face {
+	font-family: 'Droid'
+	src: url(font/DroidSerif-Regular.ttf) format(ttf),
+	 	 url(font/DroidSerif-Italic) format(ttf),
+		 url(font/DroidSerif-BoldItalic.ttf) format(ttf),
+		 url(font/DroidSerif-Bold.tff) format(ttf);
 }
 
 body{
@@ -26,7 +29,7 @@ body{
   color: rgb(130, 196, 108);
   padding: 15px;
   text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
-  font-family: 'APompadour'
+  font-family: 'Droid'
 }
 
 .left-line,
@@ -53,7 +56,7 @@ body{
 	font-size: 30px;
 	color: white;
 	text-shadow: #000000 1px 1px;
-	font-family: 'APompadour';
+	font-family: 'Droid';
 	margin-bottom: -25px;
 	width: 300px;
 	text-align: center;
@@ -66,11 +69,10 @@ body{
 }
 .nav > li > a:active, .nav > li > a:focus{
 	text-decoration: underline;
-	background: transparent;
+	background: none;
 	color: rgba(130, 196, 108, 1);
 }
-.en-cours{
-	text-decoration: underline;
+.en-cours a{
 	color: rgba(130, 196, 108, 1);
 }
 #logo_restaurant_head{
@@ -154,7 +156,7 @@ footer{
 /*Concept Section*/
 .p-index{
 	color: white;
-	font-family: 'APompadour';
+	font-family: 'Droid';
 	font-size: 18px;
 	text-align: justify;
 	padding-top: 5px;
@@ -183,7 +185,7 @@ h4 {
   font-weight: bold;
   font-size: 21px;
   color: white;
-  font-family: 'APompadour';
+  font-family: 'Droid';
   text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
   margin-bottom: -10px;
 }
@@ -374,13 +376,13 @@ h4 {
 
 @media screen and (min-width: 992px) {
   .specialite {
-    height: 420px
+    height: 380px
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .specialite{
-    height: 450px
+    height: 410px
   }
 }
 
@@ -396,21 +398,22 @@ h4 {
 }
 
 .menu-panel{
-	background-color: red; /* fond fixé par panel-default il peut dc etre supprimé*/
+	background-image: url('Images/papyrus_1.jpg');
+	background-size: 100%;
 }
 
 .menu-panel-heading{
-	background-color: blue; /* fond imposé via panel-default il peut dc etre supprimé*/
+	background-color: rgba(236,236,236,0.6);
 }
 
 .p-nosMenus{
 	color: black;
-	font-family: 'APompadour';
+	font-family: 'Droid';
 	font-size: 18px;
 }
 
 .panel-title{
-	color: rgba(130, 196, 108);
+	font-size: 22px;
 
 }
 active, #accordion:hover {
@@ -419,6 +422,8 @@ active, #accordion:hover {
 
 .specialite {
 	box-shadow: 15px 15px 15px black;
+	background-color: rgba(255,255,255,0.9);
+
 }
 
 
