@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <h1 class="sr-only">Notre carte</h1>
+        <h1 id="#top" class="sr-only">Notre carte</h1>
         <?php include("header.php");?>
     </header>
 
@@ -37,10 +37,10 @@
                                     </div>
                                     <div id="collapseOne" class="panel-collapse collapse in">
                                         <div class="panel-body">
-                                            <p class="text-center p-nosMenus">Lorem ipsum dolor sit amet - 12€<br>
-                                                Consectetur adipisicing elit - 15€<br>
-                                                Sed do eiusmod tempor incididunt - 14€<br>
-                                                Ut labore et dolore - 22€</p>
+                                            <p class="text-center p-nosMenus">Salade de criquet sauce citronnée au miel et au sésame - 12€<br>
+                                                Velouté, carotte et amandes aux vers croustillants - 15€<br>
+                                                Tartelette aux moucherons et larves Sago au lard de la forêt noires, praliné amande - 14€<br>
+                                                Quenelle de ténébrion Tenebrio molitor à la lyonnaise - 22€</p>
                                         </div>
                                     </div>
                                 </div>
@@ -50,10 +50,10 @@
                                     </div>
                                     <div id="collapseTwo" class="panel-collapse collapse">
                                         <div class="panel-body">
-                                            <p class="text-center p-nosMenus">Laboris nisi ut aliquip - 20€<br>
-                                                Ut enim ad minim veniam - 25€<br>
-                                                Quis nostrud exercitation ullamco - 24€<br>
-                                                Ex ea commodo consequat - 32€</p>
+                                            <p class="text-center p-nosMenus">Gratin Dauphinois aux termites et cafards - 20€<br>
+                                                Tagliatelles aux vers Mopanes - 25€<br>
+                                                Mille-feuille de crêpes aux scorpions - 24€<br>
+                                                Filet mignon farci aux tarantules, sauce au poivre et au whisky - 32€</p>
                                         </div>
                                     </div>
                                 </div>
@@ -63,10 +63,10 @@
                                     </div>
                                     <div id="collapseThree" class="panel-collapse collapse">
                                         <div class="panel-body">
-                                            <p class="text-center p-nosMenus">Duis aute irure dolor in reprehenderit - 15€<br>
-                                                In voluptate velit esse - 10€<br>
-                                                Cillum dolore eu fugiat - 14€<br>
-                                                Nulla pariatur - 18€</p>
+                                            <p class="text-center p-nosMenus">Tarte soufflée au criquet Caelifera, sorbet au fromage blanc, gingembre confit - 15€<br>
+                                                Macarons Larves de Witchetty-basilic - 10€<br>
+                                                Verrines de scarabée & tuiles aux amandes - 14€<br>
+                                                Clafoutis aux libellule et miel - 18€</p>
                                         </div>
                                     </div>
                                 </div>
@@ -90,7 +90,7 @@
                             <img src="Images/abeille_1_resize.jpg" alt="abeille">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>LA LOUPE</h3>
-                                <p>Tartines de gueppes sur son lit d'oeufs d'esturgeons</p>
+                                <p class="p-nosMenus">Tartines de gueppes sur son lit d'oeufs d'esturgeons</p>
                                 <p class="text-center"><a href="/nosRestaurants.php#loupe" class="btn btn-color" role="button">LA LOUPE</a></p>
                             </div>
                         </div>
@@ -101,7 +101,7 @@
                             <img src="Images/frites_1_resize.jpg" alt="pates">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>ORLÉANS</h3>
-                                <p>Vers de farine servi avec des strozzapreti aux légumes, sauce guacamole</p>
+                                <p class="p-nosMenus">Vers de farine servi avec des strozzapreti aux légumes, sauce guacamole</p>
                                 <p class="text-center"><a href="nosRestaurants.php#orleans" class="btn btn-color" role="button">ORLÉANS</a></p>
                             </div>
                         </div>
@@ -112,7 +112,7 @@
                             <img src="Images/brochette_1_resize.jpg" alt="brochettes">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>BORDEAUX</h3>
-                                <p>Brochettes de criquets et poivrons</p>
+                                <p class="p-nosMenus">Brochettes de criquets et poivrons</p>
                                 <p class="text-center"><a href="nosRestaurants.php#bordeaux" class="btn btn-color" role="button">BORDEAUX</a></p>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
                             <img src="Images/qcorpion_2.jpg" alt="scorpions">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>LYON</h3>
-                                <p>Brochettes de scorpions accompagnées d'une salade de cafards</p>
+                                <p class="p-nosMenus">Brochettes de scorpions accompagnées d'une salade de cafards</p>
                                 <p class="text-center"><a href="nosRestaurants.php#lyon" class="btn btn-color" role="button">LYON</a></p>
                             </div>
                         </div>
@@ -134,7 +134,7 @@
                             <img src="Images/composition_1_resize.jpg" alt="composition">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>TOULOUSE</h3>
-                                <p>Méli mélo de vers, cafards et larves à partager entre amis</p>
+                                <p class="p-nosMenus">Méli mélo de vers, cafards et larves à partager entre amis</p>
                                 <p class="text-center"><a href="nosRestaurants.php#toulouse" class="btn btn-color" role="button">TOULOUSE</a></p>
                             </div>
                         </div>
@@ -145,7 +145,7 @@
                             <img src="Images/composition_3_resize.jpg" alt="composition">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>LILLE</h3>
-                                <p>Barquette de cafards</p>
+                                <p class="p-nosMenus">Barquette de cafards</p>
                                 <p class="text-center"><a href="nosRestaurants.php#lille" class="btn btn-color" role="button">LILLE</a></p>
                             </div>
                         </div>
@@ -156,7 +156,7 @@
                             <img src="Images/criquets_1_resize.jpg" alt="criquet">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>STRASBOURG</h3>
-                                <p>Grillons grillés</p>
+                                <p class="p-nosMenus">Grillons grillés</p>
                                 <p class="text-center"><a href="nosRestaurants.php#strasbourg" class="btn btn-color" role="button">STRASBOURG</a></p>
                             </div>
                         </div>
@@ -167,7 +167,7 @@
                             <img src="Images/scorpion_3_resize.jpg" alt="scorpions">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>PARIS</h3>
-                                <p>Brochettes de scorpions et larves</p>
+                                <p class="p-nosMenus">Brochettes de scorpions et larves</p>
                                 <p class="text-center"><a href="nosRestaurants.php#paris" class="btn btn-color" role="button">PARIS</a></p>
                             </div>
                         </div>
@@ -178,7 +178,7 @@
                             <img src="Images/scorpion_1_resize.jpg" alt="scorpions">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>REIMS</h3>
-                                <p>Salade fraicheur aux scorpions géants grillés</p>
+                                <p class="p-nosMenus">Salade fraicheur aux scorpions géants grillés</p>
                                 <p class="text-center"><a href="nosRestaurants.php#reims" class="btn btn-color" role="button">REIMS</a></p>
                             </div>
                         </div>
@@ -189,7 +189,7 @@
                             <img src="Images/sushi_1.jpg" alt="sushi">
                             <div class="caption text-center">
                                 <h3>Spécialités<br>BIARRITZ</h3>
-                                <p>Assortiments de sushis larves et cafards</p>
+                                <p class="p-nosMenus">Assortiments de sushis larves et cafards</p>
                                 <p class="text-center"><a href="nosRestaurants.php#biarritz" class="btn btn-color" role="button">BIARRITZ</a></p>
                             </div>
                         </div>
@@ -197,7 +197,9 @@
                 </div>
             </div>
         </div>
-
+        <div id="scrollUp">
+            <a href="#top"><img src="Images/to_top.png"/></a>
+        </div>
     </section>
 
     <footer class="banniere_top">
@@ -206,5 +208,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

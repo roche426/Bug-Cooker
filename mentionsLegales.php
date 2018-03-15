@@ -14,10 +14,10 @@
 <body>
     <header>
         <h1 class="sr-only">Mentions Legales</h1>
-        <?php include("header.php");?>
+        <?php include("header.php") ?>
     </header>
 
-    <section class="container">
+    <section class="container mentions-legales">
         <div class="row">
 
             <div class="title-div">

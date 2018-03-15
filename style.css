@@ -75,6 +75,10 @@ body{
 .en-cours a{
 	color: rgba(130, 196, 108, 1);
 }
+.en-cours{
+	text-decoration: underline;
+	color: rgba(130, 196, 108, 1);
+}
 #logo_restaurant_head{
 	display: flex;
 	max-width: 50%;
@@ -157,7 +161,7 @@ footer{
 .p-index{
 	color: white;
 	font-family: 'Droid';
-	font-size: 18px;
+	font-size: 24px;
 	text-align: justify;
 	padding-top: 5px;
 }
@@ -175,7 +179,6 @@ footer{
 	font-size: 28px;
 }
 span{
-	color:rgba(130, 196, 108, 1);
 	font-size: 35px;
 }
 
@@ -205,7 +208,7 @@ h4 {
 
 /*Carousel Section*/
 .color-indicators li {
-	background-color: rgb(158,250,40); /* couleur indicateurs inactifs*/
+	background-color: rgb(130, 196, 108); /* couleur indicateurs inactifs*/
 	height: 15px;
 	width: 15px;
 	border-radius: 7.5px;
@@ -243,12 +246,12 @@ h4 {
 	background-color: rgba(10, 20, 5,0.2)
  }
 
-.header-carousel,
 .p-carousel {
-  text-align: center;
-  width: 70%;
+  text-align: justify;
+  width: 100%;
   margin: auto;
-  opacity: 1;
+  margin-top: 15px;
+  font-size: 20px;
 }
 
 .carousel-inner > .active {
@@ -260,9 +263,7 @@ h4 {
   padding-top: 2%;
   font-weight: bold;
 }
-.p-carousel {
-  font-size: 22px;
-}
+
 
 .glyphicon-chevron-right,
 .glyphicon-chevron-left
@@ -276,16 +277,16 @@ h4 {
   bottom: 0;
   left: 70%;
   margin: 1%;
-  background-color: green;
+  background-color: rgb(130, 196, 108);
+  color: rgb(62, 62, 62);
   width: 125px;
   height: 35px;
   border-radius: 5px 20px 5px;
-  color: white;
-  font: bold;
+  font-weight: bold;
 }
 
 .more-info-button:hover {
-  background-color: orange;
+  color:white;
 }
 
 .img-carousel {
@@ -324,7 +325,8 @@ h4 {
   .img-concept{
 	margin-top:70px;
   }
-
+  .p-carousel {
+  text-align: center;}
 }
 
 @media screen and (max-width: 768px) {
@@ -376,13 +378,13 @@ h4 {
 
 @media screen and (min-width: 992px) {
   .specialite {
-    height: 380px
+    height: 400px
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .specialite{
-    height: 410px
+    height: 420px
   }
 }
 
@@ -444,8 +446,9 @@ active, #accordion:hover {
 .restaurant-thumbnail {
 	border: 1px none #ddd;
 	box-shadow: 10px 10px 10px black;
-    margin: 2% ;
+    margin: 2%;
 	width: 250px;
+	background-color: rgba(255,255,255,0.9);
 }
 
 .restaurant-thumbnail .thumbnail ,
@@ -460,8 +463,8 @@ active, #accordion:hover {
 
 .restaurant-thumbnail .caption {
 	border-radius: 5px;
-	border: 1px solid rgb(255,255,255);
-	background-color: rgba(255,255,255,0.9);
+	border: none;
+
 }
 
 .restaurant-thumbnail h3 {
@@ -501,7 +504,6 @@ active, #accordion:hover {
 	.link-adress-disable:hover {
 	    color: rgb(130, 196, 108);
 	    cursor: grabbing;
-	    /*text-decoration: underline;*/
 	    pointer-events: auto;
     }
 
@@ -510,8 +512,6 @@ active, #accordion:hover {
 	    cursor: auto;
     }
 }
-
-
 
 /* contact section */
 
@@ -523,4 +523,22 @@ label {
 #send-button {
     display: block;
     margin: 10px auto;
+}
+
+
+#scrollUp {
+	position: fixed;
+	bottom : 50px;
+	right: -100px;
+	opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+	#scrollUp {
+		display: none;
+	}
+}
+
+.mentions-legales {
+	color: white;
 }
