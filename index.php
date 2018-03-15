@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <h1 class="sr-only">Bug Cookers</h1>
+        <h1 id="#top" class="sr-only">Bug Cookers</h1>
         <?php include("header.php");?>
     </header>
 
@@ -166,6 +166,9 @@
                     <button type="button" class="btn-primary btn-block btn-link-menu">Decouvrez Notre Carte </button>
                 </a>
             </div>
+        </div>
+        <div id="scrollUp">
+            <a href="#top"><img src="Images/to_top.png"/></a>
         </div>
     </section>
     <br>

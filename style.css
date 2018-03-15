@@ -533,6 +533,12 @@ label {
 	opacity: 0.5;
 }
 
+@media screen and (min-width: 768px) {
+	#scrollUp {
+		display: none;
+	}
+}
+
 .mentions-legales{
 	color: white;
 }
