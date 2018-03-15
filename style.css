@@ -75,6 +75,10 @@ body{
 .en-cours a{
 	color: rgba(130, 196, 108, 1);
 }
+.en-cours{
+	text-decoration: underline;
+	color: rgba(130, 196, 108, 1);
+}
 #logo_restaurant_head{
 	display: flex;
 	max-width: 50%;
@@ -175,7 +179,6 @@ footer{
 	font-size: 28px;
 }
 span{
-	color:rgba(130, 196, 108, 1);
 	font-size: 35px;
 }
 
@@ -205,7 +208,7 @@ h4 {
 
 /*Carousel Section*/
 .color-indicators li {
-	background-color: rgb(158,250,40); /* couleur indicateurs inactifs*/
+	background-color: rgb(130, 196, 108); /* couleur indicateurs inactifs*/
 	height: 15px;
 	width: 15px;
 	border-radius: 7.5px;
@@ -243,12 +246,11 @@ h4 {
 	background-color: rgba(10, 20, 5,0.2)
  }
 
-.header-carousel,
 .p-carousel {
-  text-align: center;
-  width: 70%;
+  text-align: justify;
+  width: 100%;
   margin: auto;
-  opacity: 1;
+  margin-top: 15px;
 }
 
 .carousel-inner > .active {
@@ -260,9 +262,7 @@ h4 {
   padding-top: 2%;
   font-weight: bold;
 }
-.p-carousel {
-  font-size: 22px;
-}
+
 
 .glyphicon-chevron-right,
 .glyphicon-chevron-left
@@ -276,16 +276,16 @@ h4 {
   bottom: 0;
   left: 70%;
   margin: 1%;
-  background-color: green;
+  background-color: rgb(130, 196, 108);
+  color: rgb(62, 62, 62);
   width: 125px;
   height: 35px;
   border-radius: 5px 20px 5px;
-  color: white;
-  font: bold;
+  font-weight: bold;
 }
 
 .more-info-button:hover {
-  background-color: orange;
+  color:white;
 }
 
 .img-carousel {
@@ -324,7 +324,8 @@ h4 {
   .img-concept{
 	margin-top:70px;
   }
-
+  .p-carousel {
+  text-align: center;}
 }
 
 @media screen and (max-width: 768px) {
@@ -540,3 +541,11 @@ label {
 .mentions-legales {
 	color: white;
 }
+
+
+/* PAGE HOME */
+@media only screen and (min-width: 768px){
+    body{
+        background-image: url('https://i1.wp.com/www.sofizz.fr/blog/wp-content/uploads/2016/02/photo-intro.jpg');
+	    background-size: 100% 4500%;
+          }
