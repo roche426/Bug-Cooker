@@ -25,19 +25,18 @@
                 <h2 class="text-center title-heading">Menu BUG COOKERS</h2>
                 <div class="right-line"></div>
             </div>
-
             <div class="row">
                 <div class="col-md-12">
                     <div class="panel-body">
                         <div class="bs-example">
                             <div class="panel-group" id="accordion">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                        <h4 class="panel-title">Entrées</h4>
+                                <div class="panel menu-panel">
+                                    <div class="panel-heading menu-panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                        <h5 class="panel-title">Entrées</h5>
                                     </div>
                                     <div id="collapseOne" class="panel-collapse collapse in">
                                         <div class="panel-body">
-                                            <p class="text-center">Lorem ipsum dolor sit amet - 12€<br>
+                                            <p class="text-center p-nosMenus">Lorem ipsum dolor sit amet - 12€<br>
                                                 Consectetur adipisicing elit - 15€<br>
                                                 Sed do eiusmod tempor incididunt - 14€<br>
                                                 Ut labore et dolore - 22€</p>
@@ -46,11 +45,11 @@
                                 </div>
                                 <div class="panel panel-default">
                                     <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                        <h4 class="panel-title">Plats</h4>
+                                        <h5 class="panel-title">Plats</h5>
                                     </div>
                                     <div id="collapseTwo" class="panel-collapse collapse">
                                         <div class="panel-body">
-                                            <p class="text-center">Laboris nisi ut aliquip - 20€<br>
+                                            <p class="text-center p-nosMenus">Laboris nisi ut aliquip - 20€<br>
                                                 Ut enim ad minim veniam - 25€<br>
                                                 Quis nostrud exercitation ullamco - 24€<br>
                                                 Ex ea commodo consequat - 32€</p>
@@ -59,11 +58,11 @@
                                 </div>
                                 <div class="panel panel-default">
                                     <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                        <h4 class="panel-title">Desserts</h4>
+                                        <h5 class="panel-title">Desserts</h5>
                                     </div>
                                     <div id="collapseThree" class="panel-collapse collapse">
                                         <div class="panel-body">
-                                            <p class="text-center">Duis aute irure dolor in reprehenderit - 15€<br>
+                                            <p class="text-center p-nosMenus">Duis aute irure dolor in reprehenderit - 15€<br>
                                                 In voluptate velit esse - 10€<br>
                                                 Cillum dolore eu fugiat - 14€<br>
                                                 Nulla pariatur - 18€</p>
@@ -75,12 +74,7 @@
                     </div>
                 </div>
             </div>
-
-
-          </div>
-
         </div>
-
 
         <div class="container">
             <div class="title-div">
@@ -88,8 +82,6 @@
                 <h2 class="text-center title-heading">Spécialités par restaurant BUG COOKERS</h2>
                 <div class="right-line"></div>
             </div>
-
-
             <div class="panel-body">
                 <div class="row">
                     <div class="col-sm-6 col-md-3">

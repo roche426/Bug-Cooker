@@ -31,24 +31,14 @@ p{
 .left-line,
 .right-line {
 	content:'';
-	width: 30%;
+	width: 35%;
 	border-bottom:rgba(130, 196, 108,1) double 2px;
 }
 
 @media screen and (max-width: 768px){
 	.title-heading {
 	  font-size: 20px;
-	  font-weight: bold;
-	  color: white;
 	  padding: 5px;
-	  text-shadow: #000000 1px 1px;
-	}
-
-	.left-line,
-	.right-line {
-		content:'';
-		width: 30%;
-		border-bottom:rgba(130, 196, 108,1) double 2px;
 	}
 }
 
@@ -399,13 +389,30 @@ h4 {
     transition: 0.4s;
 }
 
+.menu-panel{
+	background-color: red; /* fond fixé par panel-default il peut dc etre supprimé*/
+}
+
+.menu-panel-heading{
+	background-color: blue; /* fond imposé via panel-default il peut dc etre supprimé*/
+}
+
+.p-nosMenus{
+	color: black;
+	font-family: 'Linotype Univers';
+	font-size: 18px;
+}
+
+.panel-title{
+	color: rgba(130, 196, 108);
+
+}
 active, #accordion:hover {
 
 }
 
-.specialite{
-	box-shadow: 3px 3px 15px white;
-
+.specialite {
+	box-shadow: 15px 15px 15px black;
 }
 
 
@@ -425,50 +432,46 @@ active, #accordion:hover {
 
 .restaurant-thumbnail {
 	border: 1px none #ddd;
-	box-shadow: 0 0 0 rgba(0,0,0,.075);
-    background-color: rgba(0,0,0,.075);
+	box-shadow: 5px 5px 5px black;
+    background-color: transparent;
     margin: 2% ;
 	width: 250px;
 }
 
-.restaurant-thumbnail > .thumbnail ,
-.restaurant-thumbnail > .caption ,
-.restaurant-thumbnail > h3,
-.restaurant-thumbnail > p {
-	color: white;
-	font-family: Times, sans-serif;
-	background-color: rgb(62,62,62);
+.restaurant-thumbnail .thumbnail ,
+.restaurant-thumbnail p {
+	color: black;
+	font-size: 14px;
 }
 
 .col-thumbnail {
     padding: 0;
 }
 
-.restaurant-thumbnail > .caption {
-	border-radius: 25px;
-	border : 1px solid rgb(255,255,255);
+.restaurant-thumbnail .caption {
+	border-radius: 5px;
+	border: 1px solid rgb(255,255,255);
+	background-color: rgba(255,255,255,0.9);
 }
 
 .restaurant-thumbnail h3 {
+	color: black;
 	margin-top: 0;
-}
-
-.link-mail {
-    display: block;
-    margin-bottom: 10px;
-	color : blue;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .link-adress {
     min-height: 70px;
     display: block;
+	color: black;
 }
 
 .link-adress-disable:link,
 .link-adress-disable:visited,
 .link-adress-disable:hover,
 .link-adress-disable:active {
-    color: rgb(215,215,215);
+    color: black;
     cursor: pointer;
     text-decoration: none;
     pointer-events: none;
@@ -479,17 +482,21 @@ active, #accordion:hover {
 	color: rgb(62, 62, 62);
 }
 
+.btn-color:hover {
+	color: white;
+}
+
 @media screen and (max-width: 768px) {
     .link-adress-disable:link,
 	.link-adress-disable:hover {
-	    color: blue;
-	    cursor: default;
-	    text-decoration: underline;
+	    color: rgb(130, 196, 108);
+	    cursor: grabbing;
+	    /*text-decoration: underline;*/
 	    pointer-events: auto;
     }
 
     .link-adress-disable:visited {
-	    color: purple;
+	    color: rgb(130, 196, 108);
 	    cursor: auto;
     }
 }

@@ -21,7 +21,7 @@
     <br>
 
     <section class="container">
-        <div class="text-center">
+        <!--<div class="text-center">-->
             <div class="title-div">
                 <div class="left-line"></div>
                 <h2 class="text-center title-heading">Bug Cookers : Gastronomie et Insectes dans la même assiette</h2>
@@ -45,13 +45,13 @@
     <br>
 
     <section class="container "><!-- why eating insects section-->
-        <div class="text-center"><!--carousel slides-->
+        <!--<div class="text-center">--><!--carousel slides-->
             <div class="title-div">
                 <div class="left-line"></div>
                 <h2 class="text-center title-heading">Manger des insectes : tous les bienfaits</h2>
                 <div class="right-line"></div>
             </div>
-        </div>
+        <!--</div>-->
         <div id="myCarousel" class="carousel slide" data-interval="0">
             <ol class="carousel-indicators color-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -125,7 +125,7 @@
               <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
           </div>
       </div>
-  </section>
+    </section>
 
     <br>
 
