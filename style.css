@@ -161,7 +161,7 @@ footer{
 .p-index{
 	color: white;
 	font-family: 'Droid';
-	font-size: 18px;
+	font-size: 24px;
 	text-align: justify;
 	padding-top: 5px;
 }
@@ -251,6 +251,7 @@ h4 {
   width: 100%;
   margin: auto;
   margin-top: 15px;
+  font-size: 20px;
 }
 
 .carousel-inner > .active {
@@ -541,11 +542,3 @@ label {
 .mentions-legales {
 	color: white;
 }
-
-
-/* PAGE HOME */
-@media only screen and (min-width: 768px){
-    body{
-        background-image: url('https://i1.wp.com/www.sofizz.fr/blog/wp-content/uploads/2016/02/photo-intro.jpg');
-	    background-size: 100% 4500%;
-          }
