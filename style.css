@@ -72,13 +72,11 @@ body{
 	background: none;
 	color: rgba(130, 196, 108, 1);
 }
-.en-cours a{
+#en-cours a{
 	color: rgba(130, 196, 108, 1);
 }
-.en-cours{
-	text-decoration: underline;
-	color: rgba(130, 196, 108, 1);
-}
+
+
 #logo_restaurant_head{
 	display: flex;
 	max-width: 50%;
