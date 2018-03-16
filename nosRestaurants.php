@@ -84,7 +84,7 @@
                                     <a href="https://www.google.fr/maps/place/Wild+Code+School+-+Formation+d%C3%A9veloppeur+web%2Fmobile/@43.6015229,1.439835,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebb62f2131681:0x62336d5cff38c7f5!8m2!3d43.601519!4d1.442029" class="link-adress link-adress-disable" target="_blank">1 Place de la Bourse<br/>31000 Toulouse</a>
                                     <p class="text-center">06 66 47 68 70</p>
                                     <p class="text-center">toulouse@bugcookers.com</p>
-                                    <a class="btn btn-color" href="#" role="button">Nos specialités</a>
+                                    <a class="btn btn-color" href="nosMenus.php#spe-toulouse" role="button">Nos specialités</a>
                                 </div>
                             </div>
                         </div>
@@ -106,7 +106,7 @@
                                     <a href="https://www.google.fr/maps/place/Wild+Code+School+-+Formation+d%C3%A9veloppeur+web/@48.5579775,7.7660728,17z/data=!3m1!4b1!4m5!3m4!1s0x4796c96d34025333:0x4fefbe61ce54f79a!8m2!3d48.557974!4d7.7682668" class="link-adress link-adress-disable" target="_blank">1 Rue des Corps-de-Garde<br/>67100 Strasbourg</a>
                                     <p class="text-center">06 58 70 53 99</p>
                                     <p class="text-center">strasbourg@bugcookers.com</p>
-                                    <a class="btn btn-color" href="#" role="button">Nos specialités</a>
+                                    <a class="btn btn-color" href="nosMenus.php#spe-strasbourg" role="button">Nos specialités</a>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                     </div>
                 </div>
             </div>
-            <div id="scrollUp">
+        <div id="scrollUp">
                 <a href="#top"><img src="Images/to_top.png"/></a>
             </div>
         </section>
@@ -184,5 +184,4 @@
         <script src="script.js"></script>
 
     </body>
-
 </html>
