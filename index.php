@@ -35,7 +35,7 @@
                     <h4 class="subtitle-index"> L'art de la cuisine française assiocié aux bienfaits des insectes<br><span>~</span></h4>
                     <p class="p-index">Nos savoureux plats ont mde qualité nutritionnelle exceptionnelle. En effet, la valeur nutritive des insectes permet d'avoir une alimentation riche et variée. A déguster sans modération.  </p>
                 </div>
-                <div class="col-md-2 col-xs-10 col-xs-offset-1 ">
+                <div class="col-md-3 col-xs-12">
                     <img class="img-concept" src="Images/img-restaurant.jpg" height="390" alt="X"><br>
                 </div>
             </div>
@@ -85,7 +85,7 @@
                     <a class="btn more-info-button" href="http://www.mangeons-des-insectes.com/" role="button" target="_blank">En savoir plus</a>
                 </div>
                 <div class="item content-carousel">
-                    <h4 class="header-carousel">Et biensur, c'est délicieux!</h4>
+                    <h4 class="header-carousel">Et bien sûr, c'est délicieux!</h4>
                     <p class="p-carousel p-index">Les insectes apportent un goût innovant à vos papilles, pour de nouveaux plaisirs.</p>
                     <img class="img-responsive img-carousel" src="Images/delicieux.jpg" width="650" alt="slide conversion"/>
                     <a class="btn more-info-button" href="http://www.insectescomestibles.fr/" role="button" target="_blank">En savoir plus</a>

@@ -37,9 +37,9 @@
                                     </div>
                                     <div id="collapseOne" class="panel-collapse collapse in">
                                         <div class="panel-body">
-                                            <p class="text-center p-nosMenus">Salade de criquet sauce citronnée au miel et au sésame - 12€<br>
-                                                Velouté, carotte et amandes aux vers croustillants - 15€<br>
-                                                Tartelette aux moucherons et larves Sago au lard de la forêt noires, praliné amande - 14€<br>
+                                            <p class="text-center p-nosMenus">Salade de criquet sauce citronnée au miel et au sésame - 12€<br><span class="span-menu">~</span><br>
+                                                Velouté, carotte et amandes aux vers croustillants - 15€<br><span class="span-menu">~</span><br>
+                                                Tartelette aux moucherons et larves Sago au lard de la forêt noires, praliné amande - 14€<br><span class="span-menu">~</span><br>
                                                 Quenelle de ténébrion Tenebrio molitor à la lyonnaise - 22€</p>
                                         </div>
                                     </div>
@@ -50,9 +50,9 @@
                                     </div>
                                     <div id="collapseTwo" class="panel-collapse collapse">
                                         <div class="panel-body">
-                                            <p class="text-center p-nosMenus">Gratin Dauphinois aux termites et cafards - 20€<br>
-                                                Tagliatelles aux vers Mopanes - 25€<br>
-                                                Mille-feuille de crêpes aux scorpions - 24€<br>
+                                            <p class="text-center p-nosMenus">Gratin Dauphinois aux termites et cafards - 20€<br><span class="span-menu">~</span><br>
+                                                Tagliatelles aux vers Mopanes - 25€<br><span class="span-menu">~</span><br>
+                                                Mille-feuille de crêpes aux scorpions - 24€<br><span class="span-menu">~</span><br>
                                                 Filet mignon farci aux tarantules, sauce au poivre et au whisky - 32€</p>
                                         </div>
                                     </div>
@@ -63,9 +63,9 @@
                                     </div>
                                     <div id="collapseThree" class="panel-collapse collapse">
                                         <div class="panel-body">
-                                            <p class="text-center p-nosMenus">Tarte soufflée au criquet Caelifera, sorbet au fromage blanc, gingembre confit - 15€<br>
-                                                Macarons Larves de Witchetty-basilic - 10€<br>
-                                                Verrines de scarabée & tuiles aux amandes - 14€<br>
+                                            <p class="text-center p-nosMenus">Tarte soufflée au criquet Caelifera, sorbet au fromage blanc, gingembre confit - 15€<br><span class="span-menu">~</span><br>
+                                                Macarons Larves de Witchetty-basilic - 10€<br><span class="span-menu">~</span><br>
+                                                Verrines de scarabée & tuiles aux amandes - 14€<br><span class="span-menu">~</span><br>
                                                 Clafoutis aux libellule et miel - 18€</p>
                                         </div>
                                     </div>
