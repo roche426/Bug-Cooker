@@ -173,7 +173,7 @@ footer {
 .p-index {
 	color: white;
 	font-family: 'Droid';
-	font-size: 18px;
+	font-size: 24px;
 	text-align: justify;
 	padding-top: 5px;
 }
@@ -264,10 +264,11 @@ h4 {
 }
 
 .p-carousel {
-    text-align: justify;
-    width: 100%;
-    margin: auto;
-    margin-top: 15px;
+  text-align: justify;
+  width: 100%;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 20px;
 }
 
 .carousel-inner > .active {
@@ -388,15 +389,15 @@ h4 {
 
 /* MENU */
 @media screen and (min-width: 992px) {
-    .specialite {
-    	height: 380px
-    }
+  .specialite {
+    height: 400px
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    .specialite{
-    	height: 410px
-    }
+  .specialite{
+    height: 420px
+  }
 }
 
 #accordion {
