@@ -1,383 +1,575 @@
-/*CSS Header et Footer*/
+/* All pages*/
+
 @font-face {
 	font-family: 'ABugsLife';
-	src: url(ABugsLife.ttf);
+	src: url(font/ABugsLife.ttf) format("ttf");
+}
+@font-face {
+	font-family: 'Droid';
+	src: url(font/DroidSerif-Regular.ttf) format(ttf),
+	 	 url(font/DroidSerif-Italic) format(ttf),
+		 url(font/DroidSerif-BoldItalic.ttf) format(ttf),
+		 url(font/DroidSerif-Bold.tff) format(ttf);
 }
 
 body{
-	background: url("fond3.jpg");
-	width: 100%;
-	height: 100%;
+	background-image: url('Images/fond3_clair.png');
+	background-size: 100%;
 }
+
+.title-div {
+	display : flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(130, 196, 108);
+    padding: 15px;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    font-family: 'Droid'
+}
+
+.left-line,
+.right-line {
+	content:'';
+	width: 35%;
+	border-bottom:rgba(130, 196, 108,1) double 2px;
+}
+
+@media screen and (max-width: 768px) {
+	.title-heading {
+	  padding: 5px;
+	}
+}
+
 /*CSS banniere top*/
-.nav{
+.nav {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 40px;
 }
-.nav_text{
+
+.nav_text {
 	font-size: 30px;
-	color:  white;
+	color: white;
 	text-shadow: #000000 1px 1px;
-	font-family: 'Times';
+	font-family: 'Droid';
 	margin-bottom: -25px;
 	width: 300px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
-.nav_text:hover{
-	color: #82C46C;
+.nav > li > a:hover {
+	color: rgba(130, 196, 108, 1);
+	background: none;
 }
-.nav_text:active{
+.nav > li > a:active,
+.nav > li > a:focus {
 	text-decoration: underline;
+	background: none;
+	color: rgba(130, 196, 108, 1);
 }
+#en-cours a{
+	color: rgba(130, 196, 108, 1);
+}
+
 
 #logo_restaurant_head{
 	display: flex;
 	max-width: 50%;
 	min-width: 300px;;
-	margin: auto;
+	margin: 0 auto 2% auto;
 }
-.ligne_separation{
+
+.ligne_separation {
 	 border: 0;
 	 height: 3px;
 	 background-image: linear-gradient(to right, rgba(130, 196, 108, 0), rgba(130, 196, 108, 0.75), rgba(130, 196, 108, 0));
 }
+
 /*Responsive header*/
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
 	.nav{
 		flex-direction: column;
 		margin-bottom: 0px;
-	}
-	.nav_text{
-		text-align: center;
+		}
+	.nav_text {
 		font-size: 30px;
+		width: 300px;
 	}
-	#logo_restaurant_head{
+	#logo_restaurant_head {
 		margin-bottom: 0px;
 		margin-top: 25px;
 	}
-	.ligne_separation{
+	.ligne_separation {
 		margin-bottom: 0;
 	}
 }
 
 /* CSS du Footer*/
-footer{
-	background-color: rgba(250,250,250,0.08)
+footer {
+	background-color: rgba(250,250,250,0.08);
+
 }
-.dispo_footer{
+
+.dispo_footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 }
+
 /*modification des liens pieds de page*/
-.text_foot{
+.text_foot {
 	color: white;
 	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 	font-family: Times;
 	font-size: 18px;
 }
-#logo_footer{
+
+.text_foot:hover,
+.text_foot:active,
+.text_foot:focus {
+	color: rgba(130, 196, 108, 1);
+}
+
+#logo_footer {
 	color: white;
 	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 	font-family: 'ABugsLife';
 	font-size: 30px;
 }
-.banniere_bottom1{
+
+#lien_logo_footer:hover {
+	text-decoration: underline rgba(130, 196, 108, 1);
+}
+
+.banniere_bottom1 {
 	list-style: none;
 	text-align: center;
 	padding: 0;
 }
 
 /*Responsive footer*/
-@media screen and (max-width: 640px){
-.dispo_footer{
+@media screen and (max-width: 700px) {
+	.dispo_footer {
 		flex-direction: column;
 		justify-content: center;
-}
-footer{
-	margin-top: 20px;
-}
-}
-
-
-p{
-  text-align: justify;
-  color: white;
+	}
+	footer {
+		margin-top: 20px;
+	}
 }
 
-h3,h4, h5{
-  text-align: center;
-  font-weight: bold;
+/*Concept Section*/
+.p-index {
+	color: white;
+	font-family: 'Droid';
+	font-size: 24px;
+	text-align: justify;
+	padding-top: 5px;
+}
+@media screen and (max-width: 768px) {
+	.p-index{
+		font-size: 18px;
+		text-align: justify;
+	}
+	.subtitle-index{
+		font-size: 24px;
+	}
+	.p-carousel {
+	  text-align: justify;
+	  margin: auto;
+	  margin-top: 15px;
+	  font-size: 18px;
+	}
+	.header-carousel {
+	    font-size: 24px;
+	    padding-top: 2%;
+	    font-weight: bold;
+	}
+	.btn-link-menu, .btn-link-menu:hover:focus {
+	   margin: 10px;
+	    padding: 10px;
+	    font-size: 20px;
+	    border-radius: 25px;
+	    background-color: darkgreen;
+	    border-color: white;
+	}
+	.span-menu{
+		font-size: 20px;
+	}
 }
 
-.titreConcept{
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
-  text-shadow: #000000 1px 1px;
-}
-.titreConcept:before, .titreConcept:after{
-	content:'';
-	width: 40%;
-	border-bottom:rgba(130, 196, 108,1) double 2px;
-	display:inline-block;
-	vertical-align:middle;
-}
-.titreConcept:before{
-	margin-left:-100%;
-	margin-right:15px;
-}
-.titreConcept:after{
-	margin-right:-100%;
-	margin-left:15px;
+.text-founder {
+	font-style: italic;
 }
 
-.arrierePlanTitre{
-  margin-top: 40px;
-  border: none;
-  text-align: center;
-  background:none;
+.img-concept {
+	display: block;
+	margin: auto;
+	border-radius: 25px;
+	border : solid white;
+    color: white;
 }
 
-.describFondateur{
-  padding-top: 20px;
-  margin-top: 0px;
+span {
+	font-size: 35px;
 }
 
-.fondateur01{
-  margin-bottom: -50px;
-}
-
-.carouselTaille{
-  height: 400px;
-}
-
-.imgCarousel1{
-  background: url("https://fr.cdn.v5.futura-sciences.com/buildsv6/images/wide1920/c/3/4/c3449c7cc8_49335_def-insecte-mariea-flickr.jpg") no-repeat;
-}
-.imgCarousel2{
-  background: url("https://download.vikidia.org/vikidia/fr/images/f/f6/Mouche_verte.jpg") no-repeat;
-}
-.imgCarousel3{
-  background: url("https://www.abatextermination.ca/wp-content/uploads/2017/05/1-scarabee.jpg") no-repeat;
-}
-
-.imgCarousel1, .imgCarousel2, .imgCarousel3{
-  background-size: 1200px 400px;
-  height: 400px;
-  border: solid;
-}
-
-.titreArticle, .textArticle{
-  text-align: center;
-  width: 80%;
-  margin: auto;
-  color: white;
-  opacity: 0.6;
-}
-
-.titreArticle{
-  font-size: 30px;
-  margin-top: 5%;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-.textArticle{
-  font-size: 20px;
-}
-
-/* menu */
-
-.boutonCarte{
-  margin-bottom: 20px;
-  padding: 20px;
-  font-size: 40px;
-  background: rgba(255,255,255, 0.4);
-  border: 1px solid #82C46C;
-}
-
-@media only screen and (min-width: 720px){
-  .imgResponsiveMobile{
-    display: none;
+/*Founder Section*/
+h4 {
     text-align: center;
-  }
-  .imgConcept, .fondateur1{
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    font-family: 'Droid';
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    margin-bottom: -10px;
+}
+
+.img-founder {
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+	border: 1px solid white;
+}
+
+.founder-separation {
+	width: 50%;
+	margin-top: 0px;
+	border: solid;
+	color: #AAFE79;
+	border: 1px solid rgb(130, 196, 108);
+}
+
+/*Carousel Section*/
+.color-indicators li {
+	background-color: rgb(130, 196, 108); /* couleur indicateurs inactifs*/
+	height: 15px;
+	width: 15px;
+	border-radius: 7.5px;
+	border-color: green;
+	border-width:3px ;
+}
+
+.color-indicators .active {
+	background-color: rgba(209, 212, 126  ,0.3); /*couleur indicateur actif */
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+}
+
+.content-carousel {
+    border: none;
+}
+
+.size-carousel {
+    height: 590px;
+    border-radius: 50px;
+    background-color: rgba(9, 30, 5,0.4)
+}
+
+.left.carousel-control {
+    border-radius: 50px 0 0 50px;
+}
+
+.right.carousel-control {
+	border-radius: 0 50px 50px 0;
+}
+
+.carousel-control {
+	background-color: rgba(10, 20, 5,0.2)
+}
+
+.carousel-inner > .active {
+	background-color: rgb(50,50,50,0); /*couleur fond carousel*/
+}
+
+.glyphicon-chevron-right,
+.glyphicon-chevron-left {
+	color: white;
+}
+
+.more-info-button {
     display: block;
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+    margin: 1%;
+    background-color: rgb(130, 196, 108);
+    color: rgb(62, 62, 62);
+    width: 125px;
+    height: 35px;
+    border-radius: 5px 20px 5px;
+    font-weight: bold;
+}
+
+.more-info-button:hover {
+    color:white;
+}
+
+.img-carousel {
     margin: auto;
-  }
+    padding-top: 1%;
+    padding-bottom: 2%;
 }
 
-@media only screen and (max-width: 992px){
-  .imgFondateur{
-    display: block;
-    margin: auto;
-  }
-  .fondateur01{
-    margin: 0px;
-  }
+/* Buttun Link Menu */
+.btn-link-menu, .btn-link-menu:focus {
+   margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: darkgreen;
+    border-color: white;
 }
 
-@media screen and (max-width: 720px) {
-    .panel-body{
-      margin: auto;
-      text-align: center;
-    }
-    .blocConcept{
-      display: flex;
-      flex-wrap: wrap-reverse;
-    }
-    .describFondateur{
-      text-align: center;
-    }
-    .fondateur01, .fondateur02{
-      margin-bottom: -20px;
-    }
-    #myCarousel{
-      display: none;
-    }
-    .imgPhotoInsectes, .imgConcept, .imgFondateur{
-      display: block;
-      margin: auto;
-    }
-    .boutonCarte{
-      padding: 20px;
-      font-size: 15px;
-    }
+.btn-link-menu:hover, .btn-link-menu:active:hover {
+  	background-color: rgb(130, 196, 108);
+	border-color: white;
 }
 
-
-.text-center{
-  text-align: center;
+/*Responsive*/
+@media only screen and (min-width: 768px) {
+    .img-responsive-mobile {
+  		display: none;
+    }
+    .founder-portrait2{
+  		float: right;
+    }
+    .img-founder{
+	   display: block;
+	    margin: auto;
+    }
+    .img-concept{
+		margin-top:90px;
+    }
+	.subtitle-index {
+		font-size: 28px;
+	}
+	.p-carousel {
+	  text-align: center;
+	  width: 80%;
+	  margin: auto;
+	  margin-top: 15px;
+	  font-size: 20px;
+	}
+	.header-carousel {
+	    font-size: 30px;
+	    padding-top: 2%;
+	    font-weight: bold;
+	}
 }
 
+@media screen and (max-width: 768px) {
+	#myCarousel{
+		 display: none;
+	}
+    .concept-block {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+	.img-concept{
+		height: 300px;
+	}
+    .img-photo-insects,
+	.img-founder {
+        display: block;
+        margin: 2% auto;
+    }
+	.img-photo-insects{
+		border-radius: 10px;
+		border: solid rgb(130, 196, 108);
+	}
+	.btn-link-menu{
+	  font-size: 20px;
+	  text-align: center;
+	}
+
+	.img-responsive-mobile {
+		display: block;
+		text-align: center;
+	}
+	#more-info-div{
+		position: relative;
+		height: 50px;
+	}
+	.more-info-button {
+		margin: 1% 0;
+		width: 125px;
+		top: 50%; left: 50%;
+    	transform: translate(-50%, -50%);
+		height: 30px;
+	}
+}
+
+/* MENU */
 @media screen and (min-width: 992px) {
   .specialite {
-    height: 500px
+    height: 400px
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .specialiteLG1{
-    height: 410px
-  }
-  .specialiteLG2{
-    height: 450px
+  .specialite{
+    height: 420px
   }
 }
 
-.bottom{
-  vertical-align: bottom;
-}
-
-.accordion {
-    background-color: #eee;
+#accordion {
     color: #444;
-    font-weight: bold;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
     text-align: center;
     outline: none;
-    font-size: 20px;
     transition: 0.4s;
 }
 
-.active, .accordion:hover {
-    background-color: #ccc;
+.menu-panel {
+	background-image: url('Images/papyrus_1.jpg');
+	background-size: cover;
 }
 
-.panelaccordeon{
-    padding: 0 18px;
-    display: none;
-    background-color: white;
-    overflow: hidden;
+.menu-panel-heading {
+	background-color: rgba(236,236,236,0.6);
+}
+
+.p-nosMenus {
+	color: black;
+	font-family: 'Droid';
+	font-size: 16px;
+}
+
+.panel-title {
+	font-size: 22px;
+}
+
+/*active,
+#accordion:hover {
+
+}*/
+
+.specialite {
+	box-shadow: 15px 15px 15px black;
+	background-color: rgba(255,255,255,0.9);
 }
 
 
-/* resto page */
-
-/* our restaurents section */
-
-.restaurantLocation{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
+/* restaurant page */
+/* our restaurants section */
+#map {
+    margin: auto;
 }
 
-#map{
-  margin: auto;;
+.restaurant-location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.embed-responsive-4by3 {
-  padding-bottom: 90%;
-}
-
-.col-thumbnail{
-  padding: 0;
-}
-
-.idRestaurentThumbnail{
+.restaurant-thumbnail {
 	border: 1px none #ddd;
-	box-shadow: 0 0 0 rgba(0,0,0,.075);
-  background-color: rgba(0,0,0,.075);
-  margin: 2%;
+	box-shadow: 10px 10px 10px black;
+    margin: 10px;
+	width: 250px;
+	background-color: rgba(255,255,255,0.9);
+	font-family: 'Droid';
 }
 
-.linkMail{
-  display: block;
-  margin-bottom: 10px;
+.restaurant-thumbnail p {
+	color: black;
+	font-size: 14px;
 }
 
-.linkAdress{
-  min-height: 60px;
-  display: block;
+/*.col-thumbnail {
+    padding: 0;
+}*/
+
+.restaurant-thumbnail .caption {
+	border-radius: 5px;
+	border: none;
 }
 
-.linkAdressDisable:link, .linkAdressDisable:visited, .linkAdressDisable:hover, .linkAdressDisable:active{
-  color: black;
-  cursor: pointer;
-  text-decoration: none;
-  pointer-events: none;
+.restaurant-thumbnail h3 {
+	color: black;
+	margin-top: 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.link-adress {
+    min-height: 70px;
+    display: block;
+	color: black;
+}
+
+.link-adress-disable:link,
+.link-adress-disable:visited,
+.link-adress-disable:hover,
+.link-adress-disable:active {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.btn-color {
+	background-color: rgb(130, 196, 108);
+	color: rgb(62, 62, 62);
+}
+
+.btn-color:hover {
+	color: white;
 }
 
 @media screen and (max-width: 768px) {
-  .linkAdressDisable:link, .linkAdressDisable:hover{
-    color: blue;
-    cursor: default;
-    text-decoration: underline;
-    pointer-events: auto;
-  }
+    .link-adress-disable:link,
+	.link-adress-disable:hover {
+	    color: rgb(130, 196, 108);
+	    cursor: grabbing;
+	    pointer-events: auto;
+    }
 
-  .linkAdressDisable:visited {
-    color: purple;
-    cursor: auto;
-  }
+    .link-adress-disable:visited {
+	    color: rgb(130, 196, 108);
+	    cursor: auto;
+    }
 }
-
-
 
 /* contact section */
 
-#contactPresentation{
-  margin: 5%;
+label {
+	margin-top: 10px;
+	color: white;
+	font-family: 'Droid';
 }
 
-#formH2, #locationH2{
-  margin-top: 5%;
-  margin-bottom: 5%;
+#send-button {
+    display: block;
+    margin: 10px auto;
 }
 
-.formElement{
-  margin: 5%;
+#scrollUp {
+	position: fixed;
+	bottom : 50px;
+	right: -100px;
+	opacity: 0.5;
 }
 
-#sendButton{
-  display: block;
-  margin: auto;
+@media screen and (min-width: 768px) {
+	#scrollUp {
+		display: none;
+	}
+}
+
+.mentions-legales {
+	color: white;
 }
